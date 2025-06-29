@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>"Hello, World!", in every (well, a few actually 🫣) Language</title>
+    <title>Hello, World! in every (well, a few actually 🫣) language</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link
       rel="stylesheet"
@@ -23,7 +23,7 @@
   <body
     class="min-h-screen flex flex-col items-center justify-center p-4 font-sans"
   >
-    <!-- UI-Elements -->
+    <!-- UI-Elemente, die immer da sind -->
     <div id="ui-overlay" class="w-full max-w-2xl mx-auto">
       <div class="absolute top-4 right-4 z-30">
         <input
@@ -67,36 +67,24 @@
         >
           Hello, World!
         </h1>
-        <p class="text-lg" style="color: var(--text-secondary)">in</p>
       </header>
     </div>
 
     <div id="carousel-container"><div id="logo-wheel"></div></div>
 
-    <!-- Container for dynamic content -->
+    <!-- Container für den wechselnden Inhalt -->
     <div class="relative w-full max-w-2xl">
-      <!-- CHANGE: Quote placeholder, hidden by default -->
       <div
         id="placeholder-card"
         class="absolute inset-0 z-10 hidden items-center justify-center text-center p-4"
       >
-        <div>
-          <p
-            id="quote-text"
-            class="text-xl italic"
-            style="color: var(--text-secondary)"
-          ></p>
-          <p
-            id="quote-author"
-            class="mt-2"
-            style="color: var(--text-primary)"
-          ></p>
-        </div>
+        <div></div>
       </div>
 
-      <!-- Main content -->
       <main id="card" class="w-full text-center z-20">
+        <!-- CHANGE: Neuer Flex-Container für "in [Logo] [Name]" -->
         <div class="flex items-center justify-center gap-4 mb-8">
+          <p class="text-lg" style="color: var(--text-secondary)">in</p>
           <img
             id="language-logo"
             src=""
@@ -110,10 +98,7 @@
           class="rounded-lg p-4 text-left shadow-2xl w-full"
           style="background-color: var(--bg-secondary)"
         >
-          <!-- Code-Block -->
           <pre><code id="code-block" class="hljs"></code></pre>
-
-          <!-- CHANGE: New Output-Block -->
           <div
             class="mt-4 pt-3"
             style="border-top: 1px solid var(--border-color)"
@@ -131,8 +116,6 @@
               ><span id="output-text"></span>
             </div>
           </div>
-
-          <!-- CHANGE: new comment block -->
           <div
             id="comments-container"
             class="mt-4 pt-3 text-sm"
@@ -141,9 +124,7 @@
             <p class="font-bold mb-2" style="color: var(--text-primary)">
               Comments
             </p>
-            <div id="comments-content" class="flex flex-col gap-3">
-              <!-- Comments will be dynamically inserted here -->
-            </div>
+            <div id="comments-content" class="flex flex-col gap-3"></div>
           </div>
         </div>
       </main>
@@ -151,11 +132,11 @@
 
     <button
       id="random-button"
-      class="mt-8 text-white font-bold py-3 px-6 rounded-lg transition-transform transform hover:scale-105 flex items-center justify-center gap-2 z-20"
+      class="mt-8 text-white font-bold py-3 px-6 rounded-lg transition-all transform hover:scale-105 flex items-center justify-center gap-2 z-20"
       style="background-color: var(--button-bg)"
     >
       <svg
-        xmlns="http://www.w3.org/2000/svg"
+        xmlns="http://www.w.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
         stroke-width="1.5"
@@ -166,8 +147,9 @@
           stroke-linecap="round"
           stroke-linejoin="round"
           d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0011.664 0l3.181-3.183m-11.664 0l-3.182-3.182m11.664 0l-3.182 3.182"
-        /></svg
-      >Another Language
+        />
+      </svg>
+      Another Language
     </button>
 
     <script src="js/main.js" defer></script>

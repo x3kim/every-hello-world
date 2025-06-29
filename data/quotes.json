@@ -1,0 +1,114 @@
+[
+  {
+    "text": "Talk is cheap. Show me the code.",
+    "author": "Linus Torvalds"
+  },
+  {
+    "text": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+    "author": "Martin Fowler"
+  },
+  {
+    "text": "First, solve the problem. Then, write the code.",
+    "author": "John Johnson"
+  },
+  {
+    "text": "The computer programmer is a creator of universes for which he alone is the lawgiver.",
+    "author": "Joseph Weizenbaum"
+  },
+  {
+    "text": "Programming isn't about what you know; it's about what you can figure out.",
+    "author": "Chris Pine"
+  },
+  {
+    "text": "The most important property of a program is whether it accomplishes the intention of its user.",
+    "author": "C.A.R. Hoare"
+  },
+  {
+    "text": "The best way to predict the future is to invent it.",
+    "author": "Alan Kay"
+  },
+  {
+    "text": "Walking on water and developing software from a specification are easy if both are frozen.",
+    "author": "Edward V. Berard"
+  },
+  {
+    "text": "There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies.",
+    "author": "C.A.R. Hoare"
+  },
+  {
+    "text": "Truth can only be found in one place: the code.",
+    "author": "Robert C. Martin"
+  },
+  {
+    "text": "The function of good software is to make the complex appear to be simple.",
+    "author": "Grady Booch"
+  },
+  {
+    "text": "Simplicity is the soul of efficiency.",
+    "author": "Austin Freeman"
+  },
+  {
+    "text": "Code is like humor. When you have to explain it, it’s bad.",
+    "author": "Cory House"
+  },
+  {
+    "text": "Before software can be reusable it first has to be usable.",
+    "author": "Ralph Johnson"
+  },
+  {
+    "text": "One of my most productive days was throwing away 1000 lines of code.",
+    "author": "Ken Thompson"
+  },
+  {
+    "text": "It's not a bug – it's an undocumented feature.",
+    "author": "Anonymous"
+  },
+  {
+    "text": "The only way to learn a new programming language is by writing programs in it.",
+    "author": "Dennis Ritchie"
+  },
+  {
+    "text": "Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday's code.",
+    "author": "Dan Salomon"
+  },
+  {
+    "text": "The trouble with programmers is that you can never tell what a programmer is doing until it’s too late.",
+    "author": "Seymour Cray"
+  },
+  {
+    "text": "To iterate is human, to recurse divine.",
+    "author": "L. Peter Deutsch"
+  },
+  {
+    "text": "The best error message is the one that never shows up.",
+    "author": "Thomas Fuchs"
+  },
+  {
+    "text": "A programming language is for thinking about programs, not for expressing programs you've already thought of.",
+    "author": "Alan Perlis"
+  },
+  {
+    "text": "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.",
+    "author": "John Woods"
+  },
+  {
+    "text": "The key to performance is elegance, not battalions of special cases.",
+    "author": "Jon Bentley & Doug McIlroy"
+  },
+  {
+    "text": "Programs must be written for people to read, and only incidentally for machines to execute.",
+    "author": "Harold Abelson"
+  },
+  {
+    "text": "Don't comment bad code - rewrite it.",
+    "author": "Brian W. Kernighan"
+  },
+  {
+    "text": "If you think you are worth what you know, you are very wrong. Your knowledge today is worth nothing. Your knowledge tomorrow is what is going to make you valuable.",
+    "author": "David C. Baker"
+  },
+  {
+    "text": "There is always one more bug to fix.",
+    "author": "Ellen Ullman"
+  }
+]
