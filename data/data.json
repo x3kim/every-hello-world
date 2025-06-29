@@ -1,0 +1,507 @@
+[
+  {
+    "name": "HTML5",
+    "id": "html5",
+    "highlightLang": "xml",
+    "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <title>Hello World</title>\n</head>\n<body>\n    <h1>Hello, World!</h1>\n</body>\n</html>",
+    "output": { "type": "Browser Renders", "text": "Hello, World!" },
+    "comments": { "multi": "<!--\n  This is a multi-line comment.\n-->" }
+  },
+  {
+    "name": "CSS3",
+    "id": "css3",
+    "highlightLang": "css",
+    "code": "body::before {\n    content: \"Hello, World!\";\n    font-size: 2rem;\n    font-weight: bold;\n}",
+    "output": { "type": "Styles element on page", "text": "Hello, World!" },
+    "comments": { "multi": "/*\n  This is a multi-line comment.\n*/" }
+  },
+  {
+    "name": "JavaScript",
+    "id": "javascript",
+    "highlightLang": "javascript",
+    "code": "// Run with Node.js or in a browser console\nconsole.log(\"Hello, World!\");",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": {
+      "single": "// This is a single-line comment.",
+      "multi": "/*\n  This is a multi-line comment.\n*/"
+    }
+  },
+  {
+    "name": "TypeScript",
+    "id": "typescript",
+    "highlightLang": "typescript",
+    "code": "let message: string = \"Hello, World!\";\nconsole.log(message);",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": {
+      "single": "// This is a single-line comment.",
+      "multi": "/*\n  This is a multi-line comment.\n*/"
+    }
+  },
+  {
+    "name": "Python",
+    "id": "python",
+    "highlightLang": "python",
+    "code": "print(\"Hello, World!\")",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": {
+      "single": "# This is a single-line comment.",
+      "multi": "\"\"\"\nThis is a multi-line comment (docstring).\n\"\"\""
+    }
+  },
+  {
+    "name": "Java",
+    "id": "java",
+    "highlightLang": "java",
+    "code": "public class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": {
+      "single": "// This is a single-line comment.",
+      "multi": "/*\n  This is a multi-line comment.\n*/"
+    }
+  },
+  {
+    "name": "C#",
+    "id": "csharp",
+    "highlightLang": "csharp",
+    "code": "using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine(\"Hello, World!\");\n    }\n}",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": {
+      "single": "// This is a single-line comment.",
+      "multi": "/*\n  This is a multi-line comment.\n*/"
+    }
+  },
+  {
+    "name": "C++",
+    "id": "cplusplus",
+    "highlightLang": "cpp",
+    "code": "#include <iostream>\n\nint main() {\n    std::cout << \"Hello, World!\";\n    return 0;\n}",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": {
+      "single": "// This is a single-line comment.",
+      "multi": "/*\n  This is a multi-line comment.\n*/"
+    }
+  },
+  {
+    "name": "C",
+    "id": "c",
+    "highlightLang": "c",
+    "code": "#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": {
+      "single": "// This is a single-line comment.",
+      "multi": "/*\n  This is a multi-line comment.\n*/"
+    }
+  },
+  {
+    "name": "PHP",
+    "id": "php",
+    "highlightLang": "php",
+    "code": "<?php\n\necho \"Hello, World!\";",
+    "output": { "type": "Web Response", "text": "Hello, World!" },
+    "comments": {
+      "single": "// or # for single-line comments",
+      "multi": "/*\n  This is a multi-line comment.\n*/"
+    }
+  },
+  {
+    "name": "Go",
+    "id": "go",
+    "highlightLang": "go",
+    "code": "package main\n\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": {
+      "single": "// This is a single-line comment.",
+      "multi": "/*\n  This is a multi-line comment.\n*/"
+    }
+  },
+  {
+    "name": "Rust",
+    "id": "rust",
+    "highlightLang": "rust",
+    "code": "fn main() {\n    println!(\"Hello, World!\");\n}",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": {
+      "single": "// This is a single-line comment.",
+      "multi": "/*\n  This is a multi-line comment.\n*/"
+    }
+  },
+  {
+    "name": "Ruby",
+    "id": "ruby",
+    "highlightLang": "ruby",
+    "code": "puts \"Hello, World!\"",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": {
+      "single": "# This is a single-line comment.",
+      "multi": "=begin\nThis is a multi-line comment.\n=end"
+    }
+  },
+  {
+    "name": "Swift",
+    "id": "swift",
+    "highlightLang": "swift",
+    "code": "print(\"Hello, World!\")",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": {
+      "single": "// This is a single-line comment.",
+      "multi": "/*\n  This is a multi-line comment.\n*/"
+    }
+  },
+  {
+    "name": "Kotlin",
+    "id": "kotlin",
+    "highlightLang": "kotlin",
+    "code": "fun main() {\n    println(\"Hello, World!\")\n}",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": {
+      "single": "// This is a single-line comment.",
+      "multi": "/*\n  This is a multi-line comment.\n*/"
+    }
+  },
+  {
+    "name": "Dart",
+    "id": "dart",
+    "highlightLang": "dart",
+    "code": "void main() {\n  print('Hello, World!');\n}",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": {
+      "single": "// This is a single-line comment.",
+      "multi": "/*\n  This is a multi-line comment.\n*/"
+    }
+  },
+  {
+    "name": "SQL",
+    "id": "postgresql",
+    "highlightLang": "sql",
+    "code": "SELECT 'Hello, World!';",
+    "output": { "type": "Query Result", "text": "Hello, World!" },
+    "comments": {
+      "single": "-- This is a single-line comment.",
+      "multi": "/*\n  This is a multi-line comment.\n*/"
+    }
+  },
+  {
+    "name": "Bash",
+    "id": "bash",
+    "highlightLang": "bash",
+    "code": "#!/bin/bash\n\necho \"Hello, World!\"",
+    "output": { "type": "Terminal Output", "text": "Hello, World!" },
+    "comments": { "single": "# This is a comment." }
+  },
+  {
+    "name": "PowerShell",
+    "id": "powershell",
+    "highlightLang": "powershell",
+    "code": "Write-Host \"Hello, World!\"",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": {
+      "single": "# This is a single-line comment.",
+      "multi": "<#\n  This is a multi-line comment.\n#>"
+    }
+  },
+  {
+    "name": "Perl",
+    "id": "perl",
+    "highlightLang": "perl",
+    "code": "use strict;\nuse warnings;\n\nprint \"Hello, World!\\n\";",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": { "single": "# This is a comment." }
+  },
+  {
+    "name": "R",
+    "id": "r",
+    "highlightLang": "r",
+    "code": "print(\"Hello, World!\")",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": { "single": "# This is a comment." }
+  },
+  {
+    "name": "Haskell",
+    "id": "haskell",
+    "highlightLang": "haskell",
+    "code": "main :: IO ()\nmain = putStrLn \"Hello, World!\"",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": {
+      "single": "-- This is a single-line comment.",
+      "multi": "{- \n  This is a multi-line comment.\n-}"
+    }
+  },
+  {
+    "name": "Lua",
+    "id": "lua",
+    "highlightLang": "lua",
+    "code": "print(\"Hello, World!\")",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": {
+      "single": "-- This is a single-line comment.",
+      "multi": "--[[\n  This is a multi-line comment.\n--]]"
+    }
+  },
+  {
+    "name": "Scala",
+    "id": "scala",
+    "highlightLang": "scala",
+    "code": "object HelloWorld extends App {\n  println(\"Hello, World!\")\n}",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": {
+      "single": "// This is a single-line comment.",
+      "multi": "/*\n  This is a multi-line comment.\n*/"
+    }
+  },
+  {
+    "name": "Elixir",
+    "id": "elixir",
+    "highlightLang": "elixir",
+    "code": "IO.puts \"Hello, World!\"",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": { "single": "# This is a comment." }
+  },
+  {
+    "name": "Clojure",
+    "id": "clojure",
+    "highlightLang": "clojure",
+    "code": "(println \"Hello, World!\")",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": { "single": ";; This is a comment." }
+  },
+  {
+    "name": "Dockerfile",
+    "id": "docker",
+    "highlightLang": "dockerfile",
+    "code": "FROM alpine:latest\nCMD echo \"Hello, World!\"",
+    "output": { "type": "Container Log", "text": "Hello, World!" },
+    "comments": { "single": "# This is a comment." }
+  },
+  {
+    "name": "React (JSX)",
+    "id": "react",
+    "highlightLang": "jsx",
+    "code": "function HelloWorld() {\n  return <h1>Hello, World!</h1>;\n}",
+    "output": { "type": "Browser Renders", "text": "Hello, World!" },
+    "comments": { "multi": "{/*\n  This is a multi-line comment in JSX.\n*/}" }
+  },
+  {
+    "name": "Vue",
+    "id": "vuejs",
+    "highlightLang": "xml",
+    "code": "<template>\n  <h1>{{ message }}</h1>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      message: 'Hello, World!'\n    }\n  }\n}\n</script>",
+    "output": { "type": "Browser Renders", "text": "Hello, World!" },
+    "comments": {
+      "multi": "<!-- Comment in template -->\n// Comment in script"
+    }
+  },
+  {
+    "name": "Svelte",
+    "id": "svelte",
+    "highlightLang": "xml",
+    "code": "<script>\n  let message = 'Hello, World!';\n</script>\n\n<h1>{message}</h1>",
+    "output": { "type": "Browser Renders", "text": "Hello, World!" },
+    "comments": { "multi": "<!--\n  This is a multi-line comment.\n-->" }
+  },
+  {
+    "name": "Angular",
+    "id": "angularjs",
+    "highlightLang": "typescript",
+    "code": "// In hello.component.ts\nimport { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-hello',\n  template: '<h1>{{ message }}</h1>'\n})\nexport class HelloComponent {\n  message = 'Hello, World!';\n}",
+    "output": { "type": "Browser Renders", "text": "Hello, World!" },
+    "comments": {
+      "single": "// TypeScript comment",
+      "multi": "/* Multi-line comment */"
+    }
+  },
+  {
+    "name": "jQuery",
+    "id": "jquery",
+    "highlightLang": "javascript",
+    "code": "<div id=\"greeting\"></div>\n<script>\n  $(\"#greeting\").text(\"Hello, World!\");\n</script>",
+    "output": { "type": "Browser Renders", "text": "Hello, World!" },
+    "comments": {
+      "single": "// Single-line comment",
+      "multi": "/* Multi-line comment */"
+    }
+  },
+  {
+    "name": "Sass",
+    "id": "sass",
+    "highlightLang": "scss",
+    "code": "body::before\n  content: \"Hello, World!\"\n  font-size: 2rem",
+    "output": {
+      "type": "Renders as CSS",
+      "text": "body::before { content: \"Hello, World!\"; font-size: 2rem; }"
+    },
+    "comments": {
+      "single": "// This is a comment.",
+      "multi": "/*\n  This is a multi-line comment.\n*/"
+    }
+  },
+  {
+    "name": "Node.js",
+    "id": "nodejs",
+    "highlightLang": "javascript",
+    "code": "const http = require('http');\n\nhttp.createServer((req, res) => {\n  res.writeHead(200, {'Content-Type': 'text/plain'});\n  res.end('Hello, World!\\n');\n}).listen(8080);",
+    "output": { "type": "Web Response", "text": "Hello, World!" },
+    "comments": {
+      "single": "// Single-line comment",
+      "multi": "/* Multi-line comment */"
+    }
+  },
+  {
+    "name": "Objective-C",
+    "id": "objectivec",
+    "highlightLang": "objectivec",
+    "code": "#import <Foundation/Foundation.h>\n\nint main() {\n    @autoreleasepool {\n        NSLog(@\"Hello, World!\");\n    }\n    return 0;\n}",
+    "output": { "type": "Console Output", "text": "Hello, World!" },
+    "comments": {
+      "single": "// This is a single-line comment.",
+      "multi": "/*\n  This is a multi-line comment.\n*/"
+    }
+  },
+  {
+    "name": "Markdown",
+    "id": "markdown",
+    "highlightLang": "markdown",
+    "code": "# Hello, World!",
+    "output": { "type": "Renders as HTML", "text": "<h1>Hello, World!</h1>" },
+    "comments": {
+      "multi": "[//]: # (This is a comment)\n\n<!-- Also a valid comment -->"
+    }
+  },
+  {
+    "name": "Git",
+    "id": "git",
+    "highlightLang": "bash",
+    "code": "git init\necho \"Hello, World!\" > hello.txt\ngit add hello.txt\ngit commit -m \"Add Hello World\"",
+    "output": {
+      "type": "Repository State",
+      "text": "A file 'hello.txt' containing 'Hello, World!' is now versioned."
+    },
+    "comments": { "single": "# In a .gitconfig or script" }
+  },
+  {
+    "name": "MongoDB",
+    "id": "mongodb",
+    "highlightLang": "javascript",
+    "code": "// In MongoDB Shell\ndb.greetings.insertOne({ text: \"Hello, World!\" });",
+    "output": {
+      "type": "Database State",
+      "text": "A document is created in the 'greetings' collection."
+    },
+    "comments": { "single": "// This is a comment in the shell" }
+  },
+  {
+    "name": "MySQL",
+    "id": "mysql",
+    "highlightLang": "sql",
+    "code": "CREATE TABLE greetings (message VARCHAR(255));\nINSERT INTO greetings (message) VALUES ('Hello, World!');\nSELECT * FROM greetings;",
+    "output": {
+      "type": "Query Result",
+      "text": "+-----------------+\n| message         |\n+-----------------+\n| Hello, World!   |\n+-----------------+"
+    },
+    "comments": {
+      "single": "-- This is a comment",
+      "multi": "/* This is a multi-line comment */"
+    }
+  },
+  {
+    "name": "Nginx",
+    "id": "nginx",
+    "highlightLang": "nginx",
+    "code": "events {}\nhttp {\n    server {\n        listen 80;\n        location / {\n            return 200 'Hello, World!';\n        }\n    }\n}",
+    "output": { "type": "Web Response", "text": "Hello, World!" },
+    "comments": { "single": "# This is a comment." }
+  },
+  {
+    "name": "Terraform",
+    "id": "terraform",
+    "highlightLang": "hcl",
+    "code": "output \"hello_world\" {\n  value = \"Hello, World!\"\n}",
+    "output": {
+      "type": "Plan/Apply Output",
+      "text": "hello_world = \"Hello, World!\""
+    },
+    "comments": {
+      "single": "# This is a single-line comment.",
+      "multi": "/*\n  This is a multi-line comment.\n*/"
+    }
+  },
+  {
+    "name": "Godot (GDScript)",
+    "id": "godot",
+    "highlightLang": "gdscript",
+    "code": "extends Node\n\nfunc _ready():\n    print(\"Hello, World!\")",
+    "output": { "type": "Game Console Output", "text": "Hello, World!" },
+    "comments": { "single": "# This is a comment." }
+  },
+  {
+    "name": "Unity (C#)",
+    "id": "unity",
+    "highlightLang": "csharp",
+    "code": "using UnityEngine;\n\npublic class HelloWorld : MonoBehaviour\n{\n    void Start()\n    {\n        Debug.Log(\"Hello, World!\");\n    }\n}",
+    "output": { "type": "Unity Console", "text": "Hello, World!" },
+    "comments": { "single": "// This is a single-line comment." }
+  },
+  {
+    "name": "Unreal Engine (C++)",
+    "id": "unrealengine",
+    "highlightLang": "cpp",
+    "code": "// In a game object's BeginPlay function:\nif (GEngine)\n{\n    GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT(\"Hello, World!\"));\n}",
+    "output": { "type": "On-Screen Display", "text": "Hello, World!" },
+    "comments": { "single": "// This is a single-line comment." }
+  },
+  {
+    "name": "Blender (Python)",
+    "id": "blender",
+    "highlightLang": "python",
+    "code": "import bpy\n\nprint(\"Hello, World!\")",
+    "output": { "type": "System Console", "text": "Hello, World!" },
+    "comments": { "single": "# This is a comment." }
+  },
+  {
+    "name": "Vim",
+    "id": "vim",
+    "highlightLang": "vim",
+    "code": ":echo \"Hello, World!\"",
+    "output": { "type": "Vim Command Line", "text": "Hello, World!" },
+    "comments": { "single": "\" This is a comment" }
+  },
+  {
+    "name": "JSON",
+    "id": "json",
+    "highlightLang": "json",
+    "code": "{\n  \"greeting\": \"Hello, World!\"\n}",
+    "output": {
+      "type": "Data Structure",
+      "text": "{ greeting: 'Hello, World!' }"
+    },
+    "comments": {
+      "multi": "JSON does not officially support comments. \nSome parsers allow them, but it's not standard."
+    }
+  },
+  {
+    "name": "YAML",
+    "id": "yaml",
+    "highlightLang": "yaml",
+    "code": "greeting: Hello, World!",
+    "output": {
+      "type": "Data Structure",
+      "text": "{ greeting: 'Hello, World!' }"
+    },
+    "comments": { "single": "# This is a comment." }
+  },
+  {
+    "name": "Webpack",
+    "id": "webpack",
+    "highlightLang": "javascript",
+    "code": "// In a custom plugin or loader\nclass HelloWorldPlugin {\n  apply(compiler) {\n    compiler.hooks.done.tap('Hello World Plugin', (stats) => {\n      console.log('Hello, World!');\n    });\n  }\n}\n\nmodule.exports = HelloWorldPlugin;",
+    "output": { "type": "Build Process Log", "text": "Hello, World!" },
+    "comments": { "single": "// This is a comment" }
+  },
+  {
+    "name": "Next.js",
+    "id": "nextjs",
+    "highlightLang": "jsx",
+    "code": "// pages/index.js\nfunction HomePage() {\n  return <h1>Hello, World!</h1>;\n}\n\nexport default HomePage;",
+    "output": { "type": "Browser Renders", "text": "Hello, World!" },
+    "comments": { "multi": "{/*\n  This is a comment in JSX.\n*/}" }
+  }
+]

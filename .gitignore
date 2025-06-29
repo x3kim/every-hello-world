@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log
+yarn-debug.log
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Operating System generated files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDE & Editor directories
+# VSCode
+.vscode/
+# JetBrains
+.idea/
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Build output directories
+dist/
+build/
+out/
+
+# Test & Coverage reports
+coverage/

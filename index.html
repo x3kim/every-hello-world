@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>"Hello, World!", in every (well, a few actually 🫣) Language</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css"
+      id="hljs-theme-dark"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css"
+      id="hljs-theme-light"
+      media="none"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body
+    class="min-h-screen flex flex-col items-center justify-center p-4 font-sans"
+  >
+    <!-- UI-Elements -->
+    <div id="ui-overlay" class="w-full max-w-2xl mx-auto">
+      <div class="absolute top-4 right-4 z-30">
+        <input
+          type="checkbox"
+          id="theme-toggle"
+          class="theme-toggle-checkbox"
+        />
+        <label for="theme-toggle" class="theme-toggle-label p-2 rounded-full"
+          ><svg
+            class="sun-icon h-6 w-6"
+            style="color: var(--text-primary)"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+            /></svg
+          ><svg
+            class="moon-icon h-6 w-6"
+            style="color: var(--text-primary)"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+            /></svg
+        ></label>
+      </div>
+      <header class="text-center mb-8">
+        <h1
+          class="text-5xl md:text-7xl font-bold"
+          style="color: var(--text-accent)"
+        >
+          Hello, World!
+        </h1>
+        <p class="text-lg" style="color: var(--text-secondary)">in</p>
+      </header>
+    </div>
+
+    <div id="carousel-container"><div id="logo-wheel"></div></div>
+
+    <!-- Container for dynamic content -->
+    <div class="relative w-full max-w-2xl">
+      <!-- CHANGE: Quote placeholder, hidden by default -->
+      <div
+        id="placeholder-card"
+        class="absolute inset-0 z-10 hidden items-center justify-center text-center p-4"
+      >
+        <div>
+          <p
+            id="quote-text"
+            class="text-xl italic"
+            style="color: var(--text-secondary)"
+          ></p>
+          <p
+            id="quote-author"
+            class="mt-2"
+            style="color: var(--text-primary)"
+          ></p>
+        </div>
+      </div>
+
+      <!-- Main content -->
+      <main id="card" class="w-full text-center z-20">
+        <div class="flex items-center justify-center gap-4 mb-8">
+          <img
+            id="language-logo"
+            src=""
+            alt="Language Logo"
+            class="h-12 w-12 md:h-16 md:w-16"
+          />
+          <h2 id="language-name" class="text-3xl md:text-4xl font-light"></h2>
+        </div>
+
+        <div
+          class="rounded-lg p-4 text-left shadow-2xl w-full"
+          style="background-color: var(--bg-secondary)"
+        >
+          <!-- Code-Block -->
+          <pre><code id="code-block" class="hljs"></code></pre>
+
+          <!-- CHANGE: New Output-Block -->
+          <div
+            class="mt-4 pt-3"
+            style="border-top: 1px solid var(--border-color)"
+          >
+            <p
+              class="font-bold text-sm mb-2"
+              id="output-type"
+              style="color: var(--text-primary)"
+            ></p>
+            <div
+              class="p-3 rounded font-mono text-base"
+              style="background-color: var(--bg-primary)"
+            >
+              <span style="color: #9ca3af">> </span
+              ><span id="output-text"></span>
+            </div>
+          </div>
+
+          <!-- CHANGE: new comment block -->
+          <div
+            id="comments-container"
+            class="mt-4 pt-3 text-sm"
+            style="border-top: 1px solid var(--border-color)"
+          >
+            <p class="font-bold mb-2" style="color: var(--text-primary)">
+              Comments
+            </p>
+            <div id="comments-content" class="flex flex-col gap-3">
+              <!-- Comments will be dynamically inserted here -->
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <button
+      id="random-button"
+      class="mt-8 text-white font-bold py-3 px-6 rounded-lg transition-transform transform hover:scale-105 flex items-center justify-center gap-2 z-20"
+      style="background-color: var(--button-bg)"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="w-6 h-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0011.664 0l3.181-3.183m-11.664 0l-3.182-3.182m11.664 0l-3.182 3.182"
+        /></svg
+      >Another Language
+    </button>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+/* --- THEME DEFINITION --- */
+:root {
+    /* Default: Dark Theme */
+    --bg-primary: #111827; /* gray-900 */
+    --bg-secondary: #1f2937; /* gray-800 */
+    --text-primary: #f9fafb; /* gray-50 */
+    --text-secondary: #9ca3af; /* gray-400 */
+    --text-accent: #22d3ee; /* cyan-400 */
+    --button-bg: #06b6d4; /* cyan-500 */
+    --button-hover-bg: #0891b2; /* cyan-600 */
+    --border-color: #374151; /* gray-700 */
+}
+
+html[data-theme='light'] {
+    --bg-primary: #f9fafb; /* gray-50 */
+    --bg-secondary: #ffffff; /* white */
+    --text-primary: #1f2937; /* gray-800 */
+    --text-secondary: #6b7280; /* gray-500 */
+    --text-accent: #0891b2; /* cyan-600 */
+    --button-bg: #0ea5e9; /* sky-500 */
+    --button-hover-bg: #0284c7; /* sky-600 */
+    --border-color: #e5e7eb; /* gray-200 */
+}
+
+/* Wende die Variablen an */
+body { 
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color 0.3s, color 0.3s;
+}
+#card { transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out; }
+.content-hidden { opacity: 0; transform: translateY(20px); }
+
+/* Carousel (unchanged) */
+body { overflow-x: hidden; }
+#carousel-container { position: fixed; top: 0; right: 0; bottom: 0; width: 300px; transform: translateX(50%); pointer-events: none; }
+#logo-wheel { position: absolute; top: 50%; left: 50%; width: 800px; height: 800px; margin-top: -400px; margin-left: -400px; }
+.logo-slot { position: absolute; top: 50%; left: 50%; width: 80px; height: 80px; margin: -40px; display: flex; align-items: center; justify-content: center; }
+.logo-slot img { width: 70%; height: 70%; object-fit: contain; filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.5)); }
+
+/* Theme Toggle Styling */
+.theme-toggle-label { cursor: pointer; }
+.theme-toggle-checkbox { display: none; }
+.theme-toggle-checkbox:checked + .theme-toggle-label .moon-icon { display: none; }
+.theme-toggle-checkbox:not(:checked) + .theme-toggle-label .sun-icon { display: none; }
+
+#placeholder-card { transition: opacity 0.3s ease-in-out; }
