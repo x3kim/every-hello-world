@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/19e463c7-ba87-4afb-ab52-a9b94065ea24
+
 # Hello World Carousel 🎡
 
 An unapologetically simple way to say "Hello" in (almost) every programming language. Spin the wheel. Learn the basics. No fluff.
