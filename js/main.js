@@ -1,17 +1,27 @@
-// --- CONFIGURATION (unverändert) ---
-const LOGO_BASE_PATH = "logos/";
-const LOGO_VARIANTS = ["original", "plain", "line", "wordmark"];
+// --- CONFIGURATION ---
+const LOGO_BASE_PATH = "data/logos/";
+// CHANGE: Die Reihenfolge ist jetzt entscheidend und wird respektiert.
+// Längere, spezifischere Varianten kommen zuerst.
+const LOGO_VARIANTS = [
+  "original",
+  "plain",
+  "line",
+  "original-wordmark",
+  "plain-wordmark",
+  "line-wordmark",
+];
 const FALLBACK_LOGO = "images/generic-logo.svg";
-const VISIBLE_SLOTS = 15,
+const VISIBLE_SLOTS = 42,
   ANGLE_PER_SLOT = 360 / VISIBLE_SLOTS,
   TARGET_SLOT_INDEX = Math.floor(VISIBLE_SLOTS / 2);
-const WHEEL_RADIUS = 400,
-  SPIN_ROUNDS = 4,
+const WHEEL_RADIUS = 320,
+  SPIN_ROUNDS = 6,
   SPIN_DURATION_MS = 4000,
   LOGO_CYCLE_INTERVAL_MS = 75;
 const TARGET_POSITION_ANGLE = 270;
+const CONTENT_WEIGHTS = { quote: 50, image: 50 };
 
-// --- DOM Elements (unverändert) ---
+// --- DOM Elements ---
 const themeToggle = document.getElementById("theme-toggle");
 const card = document.getElementById("card");
 const langNameEl = document.getElementById("language-name");
@@ -26,30 +36,67 @@ const logoWheel = document.getElementById("logo-wheel");
 const hljsThemeDark = document.getElementById("hljs-theme-dark");
 const hljsThemeLight = document.getElementById("hljs-theme-light");
 
-// --- State (unverändert) ---
+// --- State ---
 let languages = [],
-  placeholderContent = [],
-  logoSlots = [];
+  quotesPool = [],
+  imagesPool = [],
+  logoManifest = {};
 let currentRotation = 0,
   isSpinning = false,
   logoUpdateInterval = null,
-  carouselDisplayIndex = 0;
+  carouselDisplayIndex = 0,
+  logoSlots = [];
 
-// --- Unveränderte Hilfsfunktionen ---
-function setLogoWithFallback(imgElement, lang, variantIndex = 0) {
-  if (variantIndex >= LOGO_VARIANTS.length) {
-    imgElement.src = FALLBACK_LOGO;
-    imgElement.onerror = null;
+// --- HILFSFUNKTIONEN ---
+
+/**
+ * CHANGE: Die Logik wurde auf einen exakten Abgleich umgestellt.
+ */
+function setLogo(imgElement, lang) {
+  if (lang.logoOverride) {
+    imgElement.src = `${LOGO_BASE_PATH}${lang.id}/${lang.logoOverride}`;
     return;
   }
-  const variant = LOGO_VARIANTS[variantIndex];
-  const path = `${LOGO_BASE_PATH}${lang.id}/${lang.id}-${variant}.svg`;
-  imgElement.onerror = () =>
-    setLogoWithFallback(imgElement, lang, variantIndex + 1);
-  imgElement.onload = () => {
-    imgElement.onerror = null;
-  };
-  imgElement.src = path;
+
+  const availableLogos = logoManifest[lang.id];
+  if (!availableLogos || availableLogos.length === 0) {
+    imgElement.src = FALLBACK_LOGO;
+    return;
+  }
+
+  // Finde das beste verfügbare Logo basierend auf der exakten Prioritätenliste.
+  for (const variant of LOGO_VARIANTS) {
+    // Finde eine Datei, deren Variante exakt unserer Priorität entspricht.
+    const foundLogo = availableLogos.find((logoFile) => {
+      const fileNameWithoutExt = logoFile.slice(0, -4); // Entferne '.svg'
+      const fileVariant = fileNameWithoutExt.replace(`${lang.id}-`, ""); // Entferne 'ID-'
+      return fileVariant === variant; // Exakter Abgleich!
+    });
+
+    if (foundLogo) {
+      imgElement.src = `${LOGO_BASE_PATH}${lang.id}/${foundLogo}`;
+      return;
+    }
+  }
+
+  // Fallback: Wenn keine der bevorzugten Varianten gefunden wurde, nimm das erste verfügbare Logo.
+  imgElement.src = `${LOGO_BASE_PATH}${lang.id}/${availableLogos[0]}`;
+}
+
+// ... (Rest der Hilfsfunktionen bis zum Ende bleibt exakt identisch)
+function getRandomContentType() {
+  const totalWeight = Object.values(CONTENT_WEIGHTS).reduce(
+    (sum, weight) => sum + weight,
+    0
+  );
+  let randomNum = Math.random() * totalWeight;
+  for (const type in CONTENT_WEIGHTS) {
+    if (randomNum < CONTENT_WEIGHTS[type]) {
+      return type;
+    }
+    randomNum -= CONTENT_WEIGHTS[type];
+  }
+  return "quote";
 }
 function applyTheme(theme) {
   document.documentElement.setAttribute("data-theme", theme);
@@ -88,34 +135,12 @@ function updateCarouselContent(centerIndex) {
       (centerIndex + langIndexOffset + languages.length) % languages.length;
     const slotImg = logoSlots[i];
     const lang = languages[langIndex];
-    setLogoWithFallback(slotImg, lang);
+    setLogo(slotImg, lang);
   }
-}
-function showPlaceholder() {
-  if (placeholderContent.length === 0) return;
-  const container = placeholderCard.children[0];
-  const randomContent =
-    placeholderContent[Math.floor(Math.random() * placeholderContent.length)];
-  container.innerHTML = "";
-  if (randomContent.author) {
-    container.innerHTML = `<p class="text-xl italic" style="color: var(--text-secondary);">“${randomContent.text}”</p><p class="mt-2" style="color: var(--text-primary);">– ${randomContent.author}</p>`;
-  } else if (randomContent.src) {
-    container.innerHTML = `<a href="${randomContent.href}" target="_blank" rel="noopener noreferrer"><img src="${randomContent.src}" alt="${randomContent.alt}" class="max-w-xs mx-auto rounded-lg shadow-lg"></a>`;
-  } else if (randomContent.button_text) {
-    container.innerHTML = `<p class="text-xl font-semibold" style="color: var(--text-primary);">${randomContent.text}</p><a href="${randomContent.href}" target="_blank" rel="noopener noreferrer" class="inline-block mt-4 text-white font-bold py-2 px-4 rounded" style="background-color: var(--button-bg);">${randomContent.button_text}</a>`;
-  }
-  placeholderCard.classList.remove("hidden");
-}
-async function safeJsonParse(response) {
-  if (!response.ok) {
-    return [];
-  }
-  const text = await response.text();
-  return text ? JSON.parse(text) : [];
 }
 function updateMainContent(lang) {
   langNameEl.textContent = lang.name;
-  setLogoWithFallback(langLogoEl, lang);
+  setLogo(langLogoEl, lang);
   codeBlockEl.textContent = lang.code;
   codeBlockEl.className = `language-${lang.highlightLang}`;
   codeBlockEl.removeAttribute("data-highlighted");
@@ -140,22 +165,59 @@ function updateMainContent(lang) {
     commentsContentEl.appendChild(pre);
   }
 }
+async function safeJsonParse(response) {
+  if (!response.ok) {
+    return [];
+  }
+  const text = await response.text();
+  return text ? JSON.parse(text) : [];
+}
+function showPlaceholder() {
+  const contentType = getRandomContentType();
+  const container = placeholderCard.children[0];
+  container.innerHTML = "";
+  let item;
+  if (contentType === "quote" && quotesPool.length > 0) {
+    item = quotesPool[Math.floor(Math.random() * quotesPool.length)];
+    container.innerHTML = `<p class="text-xl italic" style="color: var(--text-secondary);">“${item.text}”</p><p class="mt-2" style="color: var(--text-primary);">– ${item.author}</p>`;
+  } else if (contentType === "image" && imagesPool.length > 0) {
+    item = imagesPool[Math.floor(Math.random() * imagesPool.length)];
+    const imgSrc = `data/images/${item.src}`;
+    const altText = item.alt || "Randomly selected image";
+    let imageHTML = `<img src="${imgSrc}" alt="${altText}" class="max-w-xs mx-auto rounded-lg shadow-lg">`;
+    if (item.href) {
+      imageHTML = `<a href="${item.href}" target="_blank" rel="noopener noreferrer">${imageHTML}</a>`;
+    }
+    let buttonHTML = "";
+    if (item.button_text && item.href) {
+      buttonHTML = `<a href="${item.href}" target="_blank" rel="noopener noreferrer" class="inline-block mt-4 text-white font-bold py-2 px-4 rounded" style="background-color: var(--button-bg);">${item.button_text}</a>`;
+    }
+    container.innerHTML = imageHTML + buttonHTML;
+  } else {
+    if (quotesPool.length > 0) {
+      item = quotesPool[Math.floor(Math.random() * quotesPool.length)];
+      container.innerHTML = `<p class="text-xl italic" style="color: var(--text-secondary);">“${item.text}”</p><p class="mt-2" style="color: var(--text-primary);">– ${item.author}</p>`;
+    } else {
+      return;
+    }
+  }
+  placeholderCard.classList.remove("hidden");
+}
 async function initialize() {
   try {
-    const [langResponse, quotesResponse, imagesResponse, adsResponse] =
+    const [langResponse, quotesResponse, imagesResponse, logoManifestResponse] =
       await Promise.all([
         fetch("data/languages.json"),
         fetch("data/quotes.json"),
-        fetch("data/images.json"),
-        fetch("data/ads.json"),
+        fetch("data/image_manifest.json"),
+        fetch("data/logo_manifest.json"),
       ]);
-    if (!langResponse.ok)
-      throw new Error("Could not load essential language data.");
+    if (!langResponse.ok || !logoManifestResponse.ok)
+      throw new Error("Could not load essential data.");
     languages = await langResponse.json();
-    const quotes = await safeJsonParse(quotesResponse);
-    const images = await safeJsonParse(imagesResponse);
-    const ads = await safeJsonParse(adsResponse);
-    placeholderContent = [...quotes, ...images, ...ads];
+    logoManifest = await logoManifestResponse.json();
+    quotesPool = await safeJsonParse(quotesResponse);
+    imagesPool = await safeJsonParse(imagesResponse);
     setupTheme();
     logoWheel.style.transition = `transform ${SPIN_DURATION_MS}ms cubic-bezier(0.33, 1, 0.68, 1)`;
     createCarouselSlots();
@@ -164,28 +226,20 @@ async function initialize() {
     spinAndSelect(true);
   } catch (error) {
     console.error("Initialization failed:", error);
-    document.body.innerHTML = `<div class="text-center text-red-500 p-8">Failed to initialize. Please check console for errors and ensure 'data/languages.json' exists.</div>`;
+    document.body.innerHTML = `<div class="text-center text-red-500 p-8">Failed to initialize. Please check console for errors.</div>`;
   }
 }
-
-/**
- * CHANGE: Die Spin-Funktion blendet jetzt den Button aus und ein.
- */
 function spinAndSelect(isInitialLoad = false) {
   if (isSpinning || languages.length < 2) return;
   isSpinning = true;
   randomButton.disabled = true;
-  // CHANGE: Button unsichtbar und nicht klickbar machen
   randomButton.classList.add("opacity-0", "pointer-events-none");
-
   if (!isInitialLoad) {
     card.classList.add("content-hidden");
     showPlaceholder();
   }
-
   const winnerIndex = Math.floor(Math.random() * languages.length);
   const winner = languages[winnerIndex];
-
   const cleanBaseRotation = Math.ceil(currentRotation / 360) * 360;
   const targetSlotAngle = TARGET_SLOT_INDEX * ANGLE_PER_SLOT;
   const finalRotation =
@@ -193,31 +247,23 @@ function spinAndSelect(isInitialLoad = false) {
     SPIN_ROUNDS * 360 +
     TARGET_POSITION_ANGLE -
     targetSlotAngle;
-
   logoWheel.style.transform = `rotate(${finalRotation}deg)`;
   currentRotation = finalRotation;
-
   logoUpdateInterval = setInterval(() => {
     carouselDisplayIndex = (carouselDisplayIndex + 1) % languages.length;
     updateCarouselContent(carouselDisplayIndex);
   }, LOGO_CYCLE_INTERVAL_MS);
-
   setTimeout(() => {
     clearInterval(logoUpdateInterval);
     carouselDisplayIndex = winnerIndex;
     updateCarouselContent(carouselDisplayIndex);
     updateMainContent(winner);
-
     placeholderCard.classList.add("hidden");
     card.classList.remove("content-hidden");
-
     isSpinning = false;
     randomButton.disabled = false;
-    // CHANGE: Button wieder sichtbar machen
     randomButton.classList.remove("opacity-0", "pointer-events-none");
   }, SPIN_DURATION_MS);
 }
-
-// --- Event Listeners & Initialization ---
 randomButton.addEventListener("click", () => spinAndSelect(false));
 initialize();

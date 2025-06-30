@@ -22,7 +22,6 @@ html[data-theme='light'] {
     --border-color: #e5e7eb; /* gray-200 */
 }
 
-/* Wende die Variablen an */
 body { 
     background-color: var(--bg-primary);
     color: var(--text-primary);
@@ -31,7 +30,7 @@ body {
 #card { transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out; }
 .content-hidden { opacity: 0; transform: translateY(20px); }
 
-/* Carousel (unchanged) */
+/* Carousel */
 body { overflow-x: hidden; }
 #carousel-container { position: fixed; top: 0; right: 0; bottom: 0; width: 300px; transform: translateX(50%); pointer-events: none; }
 #logo-wheel { position: absolute; top: 50%; left: 50%; width: 800px; height: 800px; margin-top: -400px; margin-left: -400px; }

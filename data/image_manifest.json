@@ -1,0 +1,20 @@
+[
+  {
+    "src": "dumbware.gif",
+    "alt": "DumbWare.io",
+    "href": "https://dumbware.io",
+    "button_text": "Because sometimes the dumbest solution is the smartest choice."
+  },
+  {
+    "src": "unfold.gif",
+    "alt": "A minimalist desktop utility to flatten a nested folder structure into a single directory.",
+    "href": "https://github.com/x3kim/Unfold",
+    "button_text": "A minimalist desktop utility to flatten a nested folder structure into a single directory."
+  },
+  {
+    "src": "youtube.jpg",
+    "alt": "Youtube",
+    "href": "https://www.youtube.com/",
+    "button_text": ""
+  }
+]

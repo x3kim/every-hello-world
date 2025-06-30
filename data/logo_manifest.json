@@ -1,0 +1,2468 @@
+{
+  "aarch64": [
+    "aarch64-line.svg",
+    "aarch64-original.svg",
+    "aarch64-plain.svg"
+  ],
+  "adonisjs": [
+    "adonisjs-original-wordmark.svg",
+    "adonisjs-original.svg"
+  ],
+  "aftereffects": [
+    "aftereffects-original.svg",
+    "aftereffects-plain.svg"
+  ],
+  "akka": [
+    "akka-original-wordmark.svg",
+    "akka-original.svg",
+    "akka-plain-wordmark.svg",
+    "akka-plain.svg"
+  ],
+  "algolia": [
+    "algolia-original-wordmark.svg",
+    "algolia-original.svg"
+  ],
+  "alpinejs": [
+    "alpinejs-original-wordmark.svg",
+    "alpinejs-original.svg"
+  ],
+  "amazonwebservices": [
+    "amazonwebservices-line-wordmark.svg",
+    "amazonwebservices-original-wordmark.svg",
+    "amazonwebservices-plain-wordmark.svg"
+  ],
+  "anaconda": [
+    "anaconda-original-wordmark.svg",
+    "anaconda-original.svg"
+  ],
+  "android": [
+    "android-original-wordmark.svg",
+    "android-original.svg",
+    "android-plain-wordmark.svg",
+    "android-plain.svg"
+  ],
+  "androidstudio": [
+    "androidstudio-original-wordmark.svg",
+    "androidstudio-original.svg",
+    "androidstudio-plain-wordmark.svg",
+    "androidstudio-plain.svg"
+  ],
+  "angular": [
+    "angular-original-wordmark.svg",
+    "angular-original.svg",
+    "angular-plain-wordmark.svg",
+    "angular-plain.svg"
+  ],
+  "angularjs": [
+    "angularjs-original-wordmark.svg",
+    "angularjs-original.svg",
+    "angularjs-plain-wordmark.svg",
+    "angularjs-plain.svg"
+  ],
+  "angularmaterial": [
+    "angularmaterial-original.svg",
+    "angularmaterial-plain.svg"
+  ],
+  "ansible": [
+    "ansible-original-wordmark.svg",
+    "ansible-original.svg",
+    "ansible-plain-wordmark.svg",
+    "ansible-plain.svg"
+  ],
+  "antdesign": [
+    "antdesign-original-wordmark.svg",
+    "antdesign-original.svg",
+    "antdesign-plain-wordmark.svg",
+    "antdesign-plain.svg"
+  ],
+  "apache": [
+    "apache-line-wordmark.svg",
+    "apache-line.svg",
+    "apache-original-wordmark.svg",
+    "apache-original.svg",
+    "apache-plain-wordmark.svg",
+    "apache-plain.svg"
+  ],
+  "apacheairflow": [
+    "apacheairflow-original-wordmark.svg",
+    "apacheairflow-original.svg",
+    "apacheairflow-plain-wordmark.svg",
+    "apacheairflow-plain.svg"
+  ],
+  "apachekafka": [
+    "apachekafka-original-wordmark.svg",
+    "apachekafka-original.svg"
+  ],
+  "apachespark": [
+    "apachespark-original-wordmark.svg",
+    "apachespark-original.svg",
+    "apachespark-plain-wordmark.svg"
+  ],
+  "apl": [
+    "apl-original.svg",
+    "apl-plain.svg"
+  ],
+  "appcelerator": [
+    "appcelerator-original-wordmark.svg",
+    "appcelerator-original.svg",
+    "appcelerator-plain-wordmark.svg"
+  ],
+  "apple": [
+    "apple-original.svg"
+  ],
+  "appwrite": [
+    "appwrite-original-wordmark.svg",
+    "appwrite-original.svg",
+    "appwrite-plain-wordmark.svg",
+    "appwrite-plain.svg"
+  ],
+  "archlinux": [
+    "archlinux-original-wordmark.svg",
+    "archlinux-original.svg",
+    "archlinux-plain-wordmark.svg",
+    "archlinux-plain.svg"
+  ],
+  "arduino": [
+    "arduino-original-wordmark.svg",
+    "arduino-original.svg",
+    "arduino-plain-wordmark.svg",
+    "arduino-plain.svg"
+  ],
+  "argocd": [
+    "argocd-original-wordmark.svg",
+    "argocd-original.svg",
+    "argocd-plain-wordmark.svg",
+    "argocd-plain.svg"
+  ],
+  "astro": [
+    "astro-original-wordmark.svg",
+    "astro-original.svg",
+    "astro-plain-wordmark.svg",
+    "astro-plain.svg"
+  ],
+  "atom": [
+    "atom-original-wordmark.svg",
+    "atom-original.svg"
+  ],
+  "awk": [
+    "awk-original-wordmark.svg",
+    "awk-plain-wordmark.svg"
+  ],
+  "axios": [
+    "axios-plain-wordmark.svg",
+    "axios-plain.svg"
+  ],
+  "azure": [
+    "azure-original-wordmark.svg",
+    "azure-original.svg",
+    "azure-plain-wordmark.svg",
+    "azure-plain.svg"
+  ],
+  "azuredevops": [
+    "azuredevops-original.svg",
+    "azuredevops-plain.svg"
+  ],
+  "azuresqldatabase": [
+    "azuresqldatabase-original.svg",
+    "azuresqldatabase-plain.svg"
+  ],
+  "babel": [
+    "babel-original.svg",
+    "babel-plain.svg"
+  ],
+  "backbonejs": [
+    "backbonejs-original-wordmark.svg",
+    "backbonejs-original.svg",
+    "backbonejs-plain-wordmark.svg",
+    "backbonejs-plain.svg"
+  ],
+  "ballerina": [
+    "ballerina-line-wordmark.svg",
+    "ballerina-line.svg",
+    "ballerina-original-wordmark.svg",
+    "ballerina-original.svg"
+  ],
+  "bamboo": [
+    "bamboo-original-wordmark.svg",
+    "bamboo-original.svg"
+  ],
+  "bash": [
+    "bash-original.svg",
+    "bash-plain.svg"
+  ],
+  "beats": [
+    "beats-original.svg",
+    "beats-plain.svg"
+  ],
+  "behance": [
+    "behance-original-wordmark.svg",
+    "behance-original.svg",
+    "behance-plain-wordmark.svg",
+    "behance-plain.svg"
+  ],
+  "bitbucket": [
+    "bitbucket-original-wordmark.svg",
+    "bitbucket-original.svg"
+  ],
+  "blazor": [
+    "blazor-line.svg",
+    "blazor-original.svg"
+  ],
+  "blender": [
+    "blender-original-wordmark.svg",
+    "blender-original.svg"
+  ],
+  "bootstrap": [
+    "bootstrap-original-wordmark.svg",
+    "bootstrap-original.svg",
+    "bootstrap-plain-wordmark.svg",
+    "bootstrap-plain.svg"
+  ],
+  "bower": [
+    "bower-line-wordmark.svg",
+    "bower-line.svg",
+    "bower-original-wordmark.svg",
+    "bower-original.svg",
+    "bower-plain-wordmark.svg",
+    "bower-plain.svg"
+  ],
+  "browserstack": [
+    "browserstack-line-wordmark.svg",
+    "browserstack-line.svg",
+    "browserstack-original-wordmark.svg",
+    "browserstack-original.svg",
+    "browserstack-plain-wordmark.svg",
+    "browserstack-plain.svg"
+  ],
+  "bulma": [
+    "bulma-plain.svg"
+  ],
+  "bun": [
+    "bun-line.svg",
+    "bun-original.svg",
+    "bun-plain.svg"
+  ],
+  "c": [
+    "c-line.svg",
+    "c-original.svg",
+    "c-plain.svg"
+  ],
+  "cairo": [
+    "cairo-original-wordmark.svg",
+    "cairo-original.svg",
+    "cairo-plain-wordmark.svg",
+    "cairo-plain.svg"
+  ],
+  "cakephp": [
+    "cakephp-original-wordmark.svg",
+    "cakephp-original.svg",
+    "cakephp-plain-wordmark.svg",
+    "cakephp-plain.svg"
+  ],
+  "canva": [
+    "canva-original.svg"
+  ],
+  "capacitor": [
+    "capacitor-original-wordmark.svg",
+    "capacitor-original.svg",
+    "capacitor-plain-wordmark.svg",
+    "capacitor-plain.svg"
+  ],
+  "carbon": [
+    "carbon-original.svg"
+  ],
+  "cassandra": [
+    "cassandra-original-wordmark.svg",
+    "cassandra-original.svg",
+    "cassandra-plain-wordmark.svg",
+    "cassandra-plain.svg"
+  ],
+  "centos": [
+    "centos-original-wordmark.svg",
+    "centos-original.svg",
+    "centos-plain-wordmark.svg",
+    "centos-plain.svg"
+  ],
+  "ceylon": [
+    "ceylon-original-wordmark.svg",
+    "ceylon-original.svg",
+    "ceylon-plain-wordmark.svg",
+    "ceylon-plain.svg"
+  ],
+  "chrome": [
+    "chrome-original-wordmark.svg",
+    "chrome-original.svg",
+    "chrome-plain-wordmark.svg",
+    "chrome-plain.svg"
+  ],
+  "circleci": [
+    "circleci-plain-wordmark.svg",
+    "circleci-plain.svg"
+  ],
+  "clarity": [
+    "clarity-original-wordmark.svg",
+    "clarity-original.svg",
+    "clarity-plain-wordmark.svg",
+    "clarity-plain.svg"
+  ],
+  "clion": [
+    "clion-original-wordmark.svg",
+    "clion-original.svg",
+    "clion-plain-wordmark.svg",
+    "clion-plain.svg"
+  ],
+  "clojure": [
+    "clojure-line.svg",
+    "clojure-original.svg"
+  ],
+  "clojurescript": [
+    "clojurescript-original.svg",
+    "clojurescript-plain.svg"
+  ],
+  "cloudflare": [
+    "cloudflare-original-wordmark.svg",
+    "cloudflare-original.svg",
+    "cloudflare-plain-wordmark.svg",
+    "cloudflare-plain.svg"
+  ],
+  "cloudflareworkers": [
+    "cloudflareworkers-original-wordmark.svg",
+    "cloudflareworkers-original.svg",
+    "cloudflareworkers-plain-wordmark.svg",
+    "cloudflareworkers-plain.svg"
+  ],
+  "cmake": [
+    "cmake-original-wordmark.svg",
+    "cmake-original.svg",
+    "cmake-plain-wordmark.svg",
+    "cmake-plain.svg"
+  ],
+  "codeac": [
+    "codeac-original.svg"
+  ],
+  "codecov": [
+    "codecov-plain.svg"
+  ],
+  "codeigniter": [
+    "codeigniter-plain-wordmark.svg",
+    "codeigniter-plain.svg"
+  ],
+  "codepen": [
+    "codepen-line-wordmark.svg",
+    "codepen-line.svg",
+    "codepen-original-wordmark.svg",
+    "codepen-original.svg"
+  ],
+  "coffeescript": [
+    "coffeescript-original-wordmark.svg",
+    "coffeescript-original.svg"
+  ],
+  "composer": [
+    "composer-line-wordmark.svg",
+    "composer-line.svg",
+    "composer-original.svg"
+  ],
+  "confluence": [
+    "confluence-line-wordmark.svg",
+    "confluence-line.svg",
+    "confluence-original-wordmark.svg",
+    "confluence-original.svg",
+    "confluence-plain-wordmark.svg",
+    "confluence-plain.svg"
+  ],
+  "consul": [
+    "consul-original-wordmark.svg",
+    "consul-original.svg",
+    "consul-plain-wordmark.svg"
+  ],
+  "contao": [
+    "contao-original-wordmark.svg",
+    "contao-original.svg"
+  ],
+  "corejs": [
+    "corejs-original-wordmark.svg",
+    "corejs-original.svg"
+  ],
+  "cosmosdb": [
+    "cosmosdb-original-wordmark.svg",
+    "cosmosdb-original.svg",
+    "cosmosdb-plain-wordmark.svg",
+    "cosmosdb-plain.svg"
+  ],
+  "couchbase": [
+    "couchbase-original-wordmark.svg",
+    "couchbase-original.svg",
+    "couchbase-plain-wordmark.svg"
+  ],
+  "couchdb": [
+    "couchdb-original-wordmark.svg",
+    "couchdb-original.svg",
+    "couchdb-plain-wordmark.svg",
+    "couchdb-plain.svg"
+  ],
+  "cplusplus": [
+    "cplusplus-line.svg",
+    "cplusplus-original.svg",
+    "cplusplus-plain.svg"
+  ],
+  "crystal": [
+    "crystal-line-wordmark.svg",
+    "crystal-line.svg",
+    "crystal-original-wordmark.svg",
+    "crystal-original.svg"
+  ],
+  "csharp": [
+    "csharp-line.svg",
+    "csharp-original.svg",
+    "csharp-plain.svg"
+  ],
+  "css3": [
+    "css3-original-wordmark.svg",
+    "css3-original.svg",
+    "css3-plain-wordmark.svg",
+    "css3-plain.svg"
+  ],
+  "cucumber": [
+    "cucumber-plain-wordmark.svg",
+    "cucumber-plain.svg"
+  ],
+  "cypressio": [
+    "cypressio-line-wordmark.svg",
+    "cypressio-line.svg",
+    "cypressio-original-wordmark.svg",
+    "cypressio-original.svg",
+    "cypressio-plain-wordmark.svg",
+    "cypressio-plain.svg"
+  ],
+  "d3js": [
+    "d3js-original.svg",
+    "d3js-plain.svg"
+  ],
+  "dart": [
+    "dart-original-wordmark.svg",
+    "dart-original.svg",
+    "dart-plain-wordmark.svg",
+    "dart-plain.svg"
+  ],
+  "datagrip": [
+    "datagrip-original.svg",
+    "datagrip-plain-wordmark.svg",
+    "datagrip-plain.svg"
+  ],
+  "dataspell": [
+    "dataspell-original-wordmark.svg",
+    "dataspell-original.svg",
+    "dataspell-plain-wordmark.svg",
+    "dataspell-plain.svg"
+  ],
+  "dbeaver": [
+    "dbeaver-original.svg",
+    "dbeaver-plain.svg"
+  ],
+  "debian": [
+    "debian-original-wordmark.svg",
+    "debian-original.svg",
+    "debian-plain-wordmark.svg",
+    "debian-plain.svg"
+  ],
+  "denojs": [
+    "denojs-original-wordmark.svg",
+    "denojs-original.svg"
+  ],
+  "devicon": [
+    "devicon-line-wordmark.svg",
+    "devicon-line.svg",
+    "devicon-original-wordmark.svg",
+    "devicon-original.svg",
+    "devicon-plain-wordmark.svg",
+    "devicon-plain.svg"
+  ],
+  "digitalocean": [
+    "digitalocean-original-wordmark.svg",
+    "digitalocean-original.svg"
+  ],
+  "discordjs": [
+    "discordjs-original-wordmark.svg",
+    "discordjs-original.svg",
+    "discordjs-plain-wordmark.svg",
+    "discordjs-plain.svg"
+  ],
+  "django": [
+    "django-plain-wordmark.svg",
+    "django-plain.svg"
+  ],
+  "djangorest": [
+    "djangorest-line-wordmark.svg",
+    "djangorest-line.svg",
+    "djangorest-original-wordmark.svg",
+    "djangorest-original.svg",
+    "djangorest-plain-wordmark.svg",
+    "djangorest-plain.svg"
+  ],
+  "docker": [
+    "docker-original-wordmark.svg",
+    "docker-original.svg",
+    "docker-plain-wordmark.svg",
+    "docker-plain.svg"
+  ],
+  "doctrine": [
+    "doctrine-line-wordmark.svg",
+    "doctrine-line.svg",
+    "doctrine-original-wordmark.svg",
+    "doctrine-original.svg",
+    "doctrine-plain-wordmark.svg",
+    "doctrine-plain.svg"
+  ],
+  "dot-net": [
+    "dot-net-original-wordmark.svg",
+    "dot-net-original.svg",
+    "dot-net-plain-wordmark.svg",
+    "dot-net-plain.svg"
+  ],
+  "dotnetcore": [
+    "dotnetcore-original.svg",
+    "dotnetcore-plain.svg"
+  ],
+  "dreamweaver": [
+    "dreamweaver-line.svg",
+    "dreamweaver-original.svg",
+    "dreamweaver-plain.svg"
+  ],
+  "dropwizard": [
+    "dropwizard-original.svg",
+    "dropwizard-plain.svg"
+  ],
+  "drupal": [
+    "drupal-original-wordmark.svg",
+    "drupal-original.svg",
+    "drupal-plain-wordmark.svg",
+    "drupal-plain.svg"
+  ],
+  "dynamodb": [
+    "dynamodb-original.svg",
+    "dynamodb-plain.svg"
+  ],
+  "eclipse": [
+    "eclipse-original-wordmark.svg",
+    "eclipse-original.svg",
+    "eclipse-plain-wordmark.svg",
+    "eclipse-plain.svg"
+  ],
+  "ecto": [
+    "ecto-original-wordmark.svg",
+    "ecto-original.svg",
+    "ecto-plain-wordmark.svg"
+  ],
+  "elasticsearch": [
+    "elasticsearch-original-wordmark.svg",
+    "elasticsearch-original.svg",
+    "elasticsearch-plain-wordmark.svg",
+    "elasticsearch-plain.svg"
+  ],
+  "electron": [
+    "electron-original-wordmark.svg",
+    "electron-original.svg"
+  ],
+  "eleventy": [
+    "eleventy-original.svg",
+    "eleventy-plain.svg"
+  ],
+  "elixir": [
+    "elixir-original-wordmark.svg",
+    "elixir-original.svg",
+    "elixir-plain-wordmark.svg",
+    "elixir-plain.svg"
+  ],
+  "elm": [
+    "elm-original-wordmark.svg",
+    "elm-original.svg",
+    "elm-plain-wordmark.svg",
+    "elm-plain.svg"
+  ],
+  "emacs": [
+    "emacs-original.svg"
+  ],
+  "embeddedc": [
+    "embeddedc-original-wordmark.svg",
+    "embeddedc-original.svg",
+    "embeddedc-plain-wordmark.svg",
+    "embeddedc-plain.svg"
+  ],
+  "ember": [
+    "ember-original-wordmark.svg",
+    "ember-original.svg",
+    "ember-plain.svg"
+  ],
+  "envoy": [
+    "envoy-original-wordmark.svg",
+    "envoy-original.svg",
+    "envoy-plain-wordmark.svg",
+    "envoy-plain.svg"
+  ],
+  "erlang": [
+    "erlang-original-wordmark.svg",
+    "erlang-original.svg",
+    "erlang-plain-wordmark.svg",
+    "erlang-plain.svg"
+  ],
+  "eslint": [
+    "eslint-line-wordmark.svg",
+    "eslint-line.svg",
+    "eslint-original-wordmark.svg",
+    "eslint-original.svg",
+    "eslint-plain-wordmark.svg",
+    "eslint-plain.svg"
+  ],
+  "express": [
+    "express-original-wordmark.svg",
+    "express-original.svg"
+  ],
+  "facebook": [
+    "facebook-original.svg",
+    "facebook-plain.svg"
+  ],
+  "fastapi": [
+    "fastapi-original-wordmark.svg",
+    "fastapi-original.svg",
+    "fastapi-plain-wordmark.svg",
+    "fastapi-plain.svg"
+  ],
+  "fastify": [
+    "fastify-original-wordmark.svg",
+    "fastify-original.svg",
+    "fastify-plain-wordmark.svg",
+    "fastify-plain.svg"
+  ],
+  "faunadb": [
+    "faunadb-line-wordmark.svg",
+    "faunadb-line.svg",
+    "faunadb-original-wordmark.svg",
+    "faunadb-original.svg"
+  ],
+  "feathersjs": [
+    "feathersjs-original.svg"
+  ],
+  "fedora": [
+    "fedora-original.svg",
+    "fedora-plain.svg"
+  ],
+  "figma": [
+    "figma-original.svg",
+    "figma-plain.svg"
+  ],
+  "filezilla": [
+    "filezilla-line-wordmark.svg",
+    "filezilla-line.svg",
+    "filezilla-original-wordmark.svg",
+    "filezilla-original.svg",
+    "filezilla-plain-wordmark.svg",
+    "filezilla-plain.svg"
+  ],
+  "firebase": [
+    "firebase-line-wordmark.svg",
+    "firebase-line.svg",
+    "firebase-original-wordmark.svg",
+    "firebase-original.svg",
+    "firebase-plain-wordmark.svg",
+    "firebase-plain.svg"
+  ],
+  "firefox": [
+    "firefox-original-wordmark.svg",
+    "firefox-original.svg",
+    "firefox-plain-wordmark.svg",
+    "firefox-plain.svg"
+  ],
+  "flask": [
+    "flask-original-wordmark.svg",
+    "flask-original.svg"
+  ],
+  "flutter": [
+    "flutter-original.svg",
+    "flutter-plain.svg"
+  ],
+  "fortran": [
+    "fortran-original.svg"
+  ],
+  "foundation": [
+    "foundation-original-wordmark.svg",
+    "foundation-original.svg",
+    "foundation-plain-wordmark.svg",
+    "foundation-plain.svg"
+  ],
+  "framermotion": [
+    "framermotion-original-wordmark.svg",
+    "framermotion-original.svg"
+  ],
+  "framework7": [
+    "framework7-original-wordmark.svg",
+    "framework7-original.svg"
+  ],
+  "fsharp": [
+    "fsharp-original.svg",
+    "fsharp-plain.svg"
+  ],
+  "gatling": [
+    "gatling-line-wordmark.svg",
+    "gatling-line.svg",
+    "gatling-original-wordmark.svg",
+    "gatling-original.svg",
+    "gatling-plain-wordmark.svg"
+  ],
+  "gatsby": [
+    "gatsby-original-wordmark.svg",
+    "gatsby-original.svg",
+    "gatsby-plain-wordmark.svg"
+  ],
+  "gazebo": [
+    "gazebo-original-wordmark.svg",
+    "gazebo-original.svg",
+    "gazebo-plain-wordmark.svg",
+    "gazebo-plain.svg"
+  ],
+  "gcc": [
+    "gcc-line.svg",
+    "gcc-original.svg",
+    "gcc-plain.svg"
+  ],
+  "gentoo": [
+    "gentoo-line-wordmark.svg",
+    "gentoo-line.svg",
+    "gentoo-original-wordmark.svg",
+    "gentoo-original.svg",
+    "gentoo-plain-wordmark.svg",
+    "gentoo-plain.svg"
+  ],
+  "ghost": [
+    "ghost-original-wordmark.svg",
+    "ghost-original.svg"
+  ],
+  "gimp": [
+    "gimp-line-wordmark.svg",
+    "gimp-line.svg",
+    "gimp-original-wordmark.svg",
+    "gimp-original.svg",
+    "gimp-plain-wordmark.svg",
+    "gimp-plain.svg"
+  ],
+  "git": [
+    "git-original-wordmark.svg",
+    "git-original.svg",
+    "git-plain-wordmark.svg",
+    "git-plain.svg"
+  ],
+  "gitbook": [
+    "gitbook-line-wordmark.svg",
+    "gitbook-line.svg",
+    "gitbook-original-wordmark.svg",
+    "gitbook-original.svg"
+  ],
+  "github": [
+    "github-original-wordmark.svg",
+    "github-original.svg"
+  ],
+  "githubactions": [
+    "githubactions-original.svg",
+    "githubactions-plain.svg"
+  ],
+  "githubcodespaces": [
+    "githubcodespaces-original.svg",
+    "githubcodespaces-plain.svg"
+  ],
+  "gitlab": [
+    "gitlab-original-wordmark.svg",
+    "gitlab-original.svg",
+    "gitlab-plain-wordmark.svg",
+    "gitlab-plain.svg"
+  ],
+  "gitpod": [
+    "gitpod-original-wordmark.svg",
+    "gitpod-original.svg",
+    "gitpod-plain-wordmark.svg",
+    "gitpod-plain.svg"
+  ],
+  "gitter": [
+    "gitter-plain-wordmark.svg",
+    "gitter-plain.svg"
+  ],
+  "go": [
+    "go-line.svg",
+    "go-original-wordmark.svg",
+    "go-original.svg",
+    "go-plain.svg"
+  ],
+  "godot": [
+    "godot-original-wordmark.svg",
+    "godot-original.svg",
+    "godot-plain-wordmark.svg",
+    "godot-plain.svg"
+  ],
+  "goland": [
+    "goland-original.svg",
+    "goland-plain-wordmark.svg",
+    "goland-plain.svg"
+  ],
+  "google": [
+    "google-original-wordmark.svg",
+    "google-original.svg",
+    "google-plain-wordmark.svg",
+    "google-plain.svg"
+  ],
+  "googlecloud": [
+    "googlecloud-original-wordmark.svg",
+    "googlecloud-original.svg",
+    "googlecloud-plain-wordmark.svg",
+    "googlecloud-plain.svg"
+  ],
+  "gradle": [
+    "gradle-original-wordmark.svg",
+    "gradle-original.svg"
+  ],
+  "grafana": [
+    "grafana-line-wordmark.svg",
+    "grafana-line.svg",
+    "grafana-original-wordmark.svg",
+    "grafana-original.svg",
+    "grafana-plain-wordmark.svg",
+    "grafana-plain.svg"
+  ],
+  "grails": [
+    "grails-original.svg",
+    "grails-plain.svg"
+  ],
+  "graphql": [
+    "graphql-plain-wordmark.svg",
+    "graphql-plain.svg"
+  ],
+  "groovy": [
+    "groovy-original.svg",
+    "groovy-plain.svg"
+  ],
+  "grpc": [
+    "grpc-original.svg",
+    "grpc-plain.svg"
+  ],
+  "grunt": [
+    "grunt-line-wordmark.svg",
+    "grunt-line.svg",
+    "grunt-original-wordmark.svg",
+    "grunt-original.svg",
+    "grunt-plain-wordmark.svg",
+    "grunt-plain.svg"
+  ],
+  "gulp": [
+    "gulp-plain.svg"
+  ],
+  "hadoop": [
+    "hadoop-original-wordmark.svg",
+    "hadoop-original.svg",
+    "hadoop-plain-wordmark.svg",
+    "hadoop-plain.svg"
+  ],
+  "handlebars": [
+    "handlebars-line-wordmark.svg",
+    "handlebars-line.svg",
+    "handlebars-original-wordmark.svg",
+    "handlebars-original.svg"
+  ],
+  "hardhat": [
+    "hardhat-original-wordmark.svg",
+    "hardhat-original.svg",
+    "hardhat-plain-wordmark.svg",
+    "hardhat-plain.svg"
+  ],
+  "harvester": [
+    "harvester-original-wordmark.svg",
+    "harvester-original.svg",
+    "harvester-plain-wordmark.svg"
+  ],
+  "haskell": [
+    "haskell-original-wordmark.svg",
+    "haskell-original.svg",
+    "haskell-plain-wordmark.svg",
+    "haskell-plain.svg"
+  ],
+  "haxe": [
+    "haxe-original.svg",
+    "haxe-plain.svg"
+  ],
+  "helm": [
+    "helm-line.svg",
+    "helm-original.svg"
+  ],
+  "heroku": [
+    "heroku-original-wordmark.svg",
+    "heroku-original.svg",
+    "heroku-plain-wordmark.svg",
+    "heroku-plain.svg"
+  ],
+  "hibernate": [
+    "hibernate-original-wordmark.svg",
+    "hibernate-original.svg",
+    "hibernate-plain-wordmark.svg",
+    "hibernate-plain.svg"
+  ],
+  "homebrew": [
+    "homebrew-line-wordmark.svg",
+    "homebrew-line.svg",
+    "homebrew-original-wordmark.svg",
+    "homebrew-original.svg",
+    "homebrew-plain-wordmark.svg",
+    "homebrew-plain.svg"
+  ],
+  "html5": [
+    "html5-original-wordmark.svg",
+    "html5-original.svg",
+    "html5-plain-wordmark.svg",
+    "html5-plain.svg"
+  ],
+  "hugo": [
+    "hugo-original-wordmark.svg",
+    "hugo-original.svg",
+    "hugo-plain-wordmark.svg",
+    "hugo-plain.svg"
+  ],
+  "ie10": [
+    "ie10-original.svg"
+  ],
+  "ifttt": [
+    "ifttt-original.svg"
+  ],
+  "illustrator": [
+    "illustrator-line.svg",
+    "illustrator-plain.svg"
+  ],
+  "influxdb": [
+    "influxdb-original-wordmark.svg",
+    "influxdb-original.svg"
+  ],
+  "inkscape": [
+    "inkscape-original-wordmark.svg",
+    "inkscape-original.svg",
+    "inkscape-plain-wordmark.svg",
+    "inkscape-plain.svg"
+  ],
+  "insomnia": [
+    "insomnia-original-wordmark.svg",
+    "insomnia-original.svg",
+    "insomnia-plain-wordmark.svg",
+    "insomnia-plain.svg"
+  ],
+  "intellij": [
+    "intellij-original.svg",
+    "intellij-plain-wordmark.svg",
+    "intellij-plain.svg"
+  ],
+  "ionic": [
+    "ionic-original-wordmark.svg",
+    "ionic-original.svg"
+  ],
+  "jaegertracing": [
+    "jaegertracing-original-wordmark.svg",
+    "jaegertracing-original.svg",
+    "jaegertracing-plain-wordmark.svg",
+    "jaegertracing-plain.svg"
+  ],
+  "jamstack": [
+    "jamstack-original-wordmark.svg",
+    "jamstack-original.svg",
+    "jamstack-plain-wordmark.svg"
+  ],
+  "jasmine": [
+    "jasmine-original-wordmark.svg",
+    "jasmine-original.svg"
+  ],
+  "java": [
+    "java-original-wordmark.svg",
+    "java-original.svg",
+    "java-plain-wordmark.svg",
+    "java-plain.svg"
+  ],
+  "javascript": [
+    "javascript-original.svg",
+    "javascript-plain.svg"
+  ],
+  "jeet": [
+    "jeet-original-wordmark.svg",
+    "jeet-original.svg",
+    "jeet-plain-wordmark.svg",
+    "jeet-plain.svg"
+  ],
+  "jekyll": [
+    "jekyll-original-wordmark.svg",
+    "jekyll-original.svg",
+    "jekyll-plain-wordmark.svg",
+    "jekyll-plain.svg"
+  ],
+  "jenkins": [
+    "jenkins-line.svg",
+    "jenkins-original.svg",
+    "jenkins-plain.svg"
+  ],
+  "jest": [
+    "jest-plain.svg"
+  ],
+  "jetbrains": [
+    "jetbrains-original.svg",
+    "jetbrains-plain.svg"
+  ],
+  "jetpackcompose": [
+    "jetpackcompose-line-wordmark.svg",
+    "jetpackcompose-line.svg",
+    "jetpackcompose-original-wordmark.svg",
+    "jetpackcompose-original.svg",
+    "jetpackcompose-plain-wordmark.svg",
+    "jetpackcompose-plain.svg"
+  ],
+  "jira": [
+    "jira-original-wordmark.svg",
+    "jira-original.svg",
+    "jira-plain-wordmark.svg",
+    "jira-plain.svg"
+  ],
+  "jiraalign": [
+    "jiraalign-original-wordmark.svg",
+    "jiraalign-original.svg",
+    "jiraalign-plain-wordmark.svg",
+    "jiraalign-plain.svg"
+  ],
+  "jquery": [
+    "jquery-original-wordmark.svg",
+    "jquery-original.svg",
+    "jquery-plain-wordmark.svg",
+    "jquery-plain.svg"
+  ],
+  "json": [
+    "json-original.svg",
+    "json-plain.svg"
+  ],
+  "jule": [
+    "jule-original-wordmark.svg",
+    "jule-original.svg"
+  ],
+  "julia": [
+    "julia-original-wordmark.svg",
+    "julia-original.svg",
+    "julia-plain-wordmark.svg",
+    "julia-plain.svg"
+  ],
+  "junit": [
+    "junit-line-wordmark.svg",
+    "junit-line.svg",
+    "junit-original-wordmark.svg",
+    "junit-original.svg",
+    "junit-plain-wordmark.svg",
+    "junit-plain.svg"
+  ],
+  "jupyter": [
+    "jupyter-original-wordmark.svg",
+    "jupyter-original.svg",
+    "jupyter-plain-wordmark.svg",
+    "jupyter-plain.svg"
+  ],
+  "k3os": [
+    "k3os-line-wordmark.svg",
+    "k3os-line.svg",
+    "k3os-original-wordmark.svg",
+    "k3os-original.svg",
+    "k3os-plain-wordmark.svg"
+  ],
+  "k3s": [
+    "k3s-original-wordmark.svg",
+    "k3s-original.svg",
+    "k3s-plain-wordmark.svg"
+  ],
+  "k6": [
+    "k6-original.svg"
+  ],
+  "kaggle": [
+    "kaggle-original-wordmark.svg",
+    "kaggle-original.svg"
+  ],
+  "karatelabs": [
+    "karatelabs-original-wordmark.svg",
+    "karatelabs-original.svg",
+    "karatelabs-plain-wordmark.svg",
+    "karatelabs-plain.svg"
+  ],
+  "karma": [
+    "karma-original.svg",
+    "karma-plain.svg"
+  ],
+  "kdeneon": [
+    "kdeneon-original.svg",
+    "kdeneon-plain.svg"
+  ],
+  "keras": [
+    "keras-line-wordmark.svg",
+    "keras-line.svg",
+    "keras-original-wordmark.svg",
+    "keras-original.svg",
+    "keras-plain-wordmark.svg",
+    "keras-plain.svg"
+  ],
+  "kibana": [
+    "kibana-original-wordmark.svg",
+    "kibana-original.svg",
+    "kibana-plain-wordmark.svg",
+    "kibana-plain.svg"
+  ],
+  "knexjs": [
+    "knexjs-original-wordmark.svg",
+    "knexjs-original.svg",
+    "knexjs-plain-wordmark.svg"
+  ],
+  "knockout": [
+    "knockout-plain-wordmark.svg"
+  ],
+  "kotlin": [
+    "kotlin-original-wordmark.svg",
+    "kotlin-original.svg",
+    "kotlin-plain-wordmark.svg",
+    "kotlin-plain.svg"
+  ],
+  "krakenjs": [
+    "krakenjs-original-wordmark.svg",
+    "krakenjs-original.svg",
+    "krakenjs-plain-wordmark.svg",
+    "krakenjs-plain.svg"
+  ],
+  "ktor": [
+    "ktor-original-wordmark.svg",
+    "ktor-original.svg",
+    "ktor-plain-wordmark.svg",
+    "ktor-plain.svg"
+  ],
+  "kubernetes": [
+    "kubernetes-line-wordmark.svg",
+    "kubernetes-line.svg",
+    "kubernetes-original-wordmark.svg",
+    "kubernetes-original.svg",
+    "kubernetes-plain-wordmark.svg",
+    "kubernetes-plain.svg"
+  ],
+  "labview": [
+    "labview-original-wordmark.svg",
+    "labview-original.svg",
+    "labview-plain-wordmark.svg",
+    "labview-plain.svg"
+  ],
+  "laravel": [
+    "laravel-line-wordmark.svg",
+    "laravel-line.svg",
+    "laravel-original-wordmark.svg",
+    "laravel-original.svg"
+  ],
+  "latex": [
+    "latex-original.svg"
+  ],
+  "less": [
+    "less-plain-wordmark.svg"
+  ],
+  "linkedin": [
+    "linkedin-original-wordmark.svg",
+    "linkedin-original.svg",
+    "linkedin-plain-wordmark.svg",
+    "linkedin-plain.svg"
+  ],
+  "linux": [
+    "linux-original.svg",
+    "linux-plain.svg"
+  ],
+  "liquibase": [
+    "liquibase-original-wordmark.svg",
+    "liquibase-original.svg"
+  ],
+  "livewire": [
+    "livewire-original-wordmark.svg",
+    "livewire-original.svg",
+    "livewire-plain-wordmark.svg",
+    "livewire-plain.svg"
+  ],
+  "llvm": [
+    "llvm-original.svg",
+    "llvm-plain.svg"
+  ],
+  "lodash": [
+    "lodash-original.svg",
+    "lodash-plain.svg"
+  ],
+  "logstash": [
+    "logstash-original-wordmark.svg",
+    "logstash-original.svg",
+    "logstash-plain-wordmark.svg",
+    "logstash-plain.svg"
+  ],
+  "lua": [
+    "lua-line.svg",
+    "lua-original.svg",
+    "lua-plain.svg"
+  ],
+  "lumen": [
+    "lumen-original.svg"
+  ],
+  "magento": [
+    "magento-line-wordmark.svg",
+    "magento-line.svg",
+    "magento-original-wordmark.svg",
+    "magento-original.svg",
+    "magento-plain-wordmark.svg"
+  ],
+  "mariadb": [
+    "mariadb-original-wordmark.svg",
+    "mariadb-original.svg"
+  ],
+  "markdown": [
+    "markdown-original.svg"
+  ],
+  "materializecss": [
+    "materializecss-original.svg",
+    "materializecss-plain.svg"
+  ],
+  "materialui": [
+    "materialui-original.svg",
+    "materialui-plain.svg"
+  ],
+  "matlab": [
+    "matlab-line.svg",
+    "matlab-original.svg",
+    "matlab-plain.svg"
+  ],
+  "matplotlib": [
+    "matplotlib-original-wordmark.svg",
+    "matplotlib-original.svg",
+    "matplotlib-plain-wordmark.svg",
+    "matplotlib-plain.svg"
+  ],
+  "maven": [
+    "maven-original-wordmark.svg",
+    "maven-original.svg",
+    "maven-plain-wordmark.svg",
+    "maven-plain.svg"
+  ],
+  "maya": [
+    "maya-original-wordmark.svg",
+    "maya-original.svg",
+    "maya-plain-wordmark.svg",
+    "maya-plain.svg"
+  ],
+  "meteor": [
+    "meteor-original-wordmark.svg",
+    "meteor-original.svg",
+    "meteor-plain-wordmark.svg",
+    "meteor-plain.svg"
+  ],
+  "microsoftsqlserver": [
+    "microsoftsqlserver-line-wordmark.svg",
+    "microsoftsqlserver-line.svg",
+    "microsoftsqlserver-original-wordmark.svg",
+    "microsoftsqlserver-original.svg",
+    "microsoftsqlserver-plain-wordmark.svg",
+    "microsoftsqlserver-plain.svg"
+  ],
+  "minitab": [
+    "minitab-original.svg",
+    "minitab-plain.svg"
+  ],
+  "mithril": [
+    "mithril-line.svg",
+    "mithril-original.svg"
+  ],
+  "mobx": [
+    "mobx-original.svg",
+    "mobx-plain.svg"
+  ],
+  "mocha": [
+    "mocha-original.svg",
+    "mocha-plain.svg"
+  ],
+  "modx": [
+    "modx-original-wordmark.svg",
+    "modx-original.svg",
+    "modx-plain-wordmark.svg",
+    "modx-plain.svg"
+  ],
+  "moleculer": [
+    "moleculer-original-wordmark.svg",
+    "moleculer-original.svg"
+  ],
+  "mongodb": [
+    "mongodb-original-wordmark.svg",
+    "mongodb-original.svg",
+    "mongodb-plain-wordmark.svg",
+    "mongodb-plain.svg"
+  ],
+  "mongoose": [
+    "mongoose-original-wordmark.svg",
+    "mongoose-original.svg"
+  ],
+  "moodle": [
+    "moodle-original-wordmark.svg",
+    "moodle-original.svg",
+    "moodle-plain-wordmark.svg",
+    "moodle-plain.svg"
+  ],
+  "msdos": [
+    "msdos-line.svg",
+    "msdos-original.svg",
+    "msdos-plain.svg"
+  ],
+  "mysql": [
+    "mysql-original-wordmark.svg",
+    "mysql-original.svg",
+    "mysql-plain-wordmark.svg"
+  ],
+  "nano": [
+    "nano-original-wordmark.svg",
+    "nano-original.svg",
+    "nano-plain-wordmark.svg",
+    "nano-plain.svg"
+  ],
+  "neo4j": [
+    "neo4j-original-wordmark.svg",
+    "neo4j-original.svg",
+    "neo4j-plain-wordmark.svg",
+    "neo4j-plain.svg"
+  ],
+  "neovim": [
+    "neovim-line-wordmark.svg",
+    "neovim-line.svg",
+    "neovim-original-wordmark.svg",
+    "neovim-original.svg",
+    "neovim-plain-wordmark.svg",
+    "neovim-plain.svg"
+  ],
+  "nestjs": [
+    "nestjs-line-wordmark.svg",
+    "nestjs-line.svg",
+    "nestjs-original-wordmark.svg",
+    "nestjs-original.svg"
+  ],
+  "netlify": [
+    "netlify-original-wordmark.svg",
+    "netlify-original.svg",
+    "netlify-plain-wordmark.svg",
+    "netlify-plain.svg"
+  ],
+  "networkx": [
+    "networkx-line-wordmark.svg",
+    "networkx-line.svg",
+    "networkx-original-wordmark.svg",
+    "networkx-original.svg",
+    "networkx-plain-wordmark.svg",
+    "networkx-plain.svg"
+  ],
+  "nextjs": [
+    "nextjs-line-wordmark.svg",
+    "nextjs-line.svg",
+    "nextjs-original-wordmark.svg",
+    "nextjs-original.svg",
+    "nextjs-plain.svg"
+  ],
+  "nginx": [
+    "nginx-original.svg"
+  ],
+  "ngrx": [
+    "ngrx-original.svg",
+    "ngrx-plain.svg"
+  ],
+  "nhibernate": [
+    "nhibernate-line-wordmark.svg",
+    "nhibernate-line.svg",
+    "nhibernate-original-wordmark.svg",
+    "nhibernate-original.svg",
+    "nhibernate-plain-wordmark.svg",
+    "nhibernate-plain.svg"
+  ],
+  "nim": [
+    "nim-line-wordmark.svg",
+    "nim-line.svg",
+    "nim-original-wordmark.svg",
+    "nim-original.svg",
+    "nim-plain-wordmark.svg",
+    "nim-plain.svg"
+  ],
+  "nimble": [
+    "nimble-original.svg",
+    "nimble-plain.svg"
+  ],
+  "nixos": [
+    "nixos-original-wordmark.svg",
+    "nixos-original.svg",
+    "nixos-plain-wordmark.svg",
+    "nixos-plain.svg"
+  ],
+  "nodejs": [
+    "nodejs-line-wordmark.svg",
+    "nodejs-line.svg",
+    "nodejs-original-wordmark.svg",
+    "nodejs-original.svg",
+    "nodejs-plain-wordmark.svg",
+    "nodejs-plain.svg"
+  ],
+  "nodemon": [
+    "nodemon-line.svg",
+    "nodemon-original.svg",
+    "nodemon-plain.svg"
+  ],
+  "nodewebkit": [
+    "nodewebkit-line-wordmark.svg",
+    "nodewebkit-line.svg",
+    "nodewebkit-original-wordmark.svg",
+    "nodewebkit-original.svg",
+    "nodewebkit-plain-wordmark.svg",
+    "nodewebkit-plain.svg"
+  ],
+  "nomad": [
+    "nomad-original-wordmark.svg",
+    "nomad-original.svg",
+    "nomad-plain-wordmark.svg"
+  ],
+  "norg": [
+    "norg-original.svg",
+    "norg-plain.svg"
+  ],
+  "notion": [
+    "notion-line.svg",
+    "notion-original.svg",
+    "notion-plain.svg"
+  ],
+  "npm": [
+    "npm-original-wordmark.svg"
+  ],
+  "nuget": [
+    "nuget-original-wordmark.svg",
+    "nuget-original.svg"
+  ],
+  "numpy": [
+    "numpy-line-wordmark.svg",
+    "numpy-line.svg",
+    "numpy-original-wordmark.svg",
+    "numpy-original.svg",
+    "numpy-plain-wordmark.svg",
+    "numpy-plain.svg"
+  ],
+  "nuxtjs": [
+    "nuxtjs-original-wordmark.svg",
+    "nuxtjs-original.svg",
+    "nuxtjs-plain-wordmark.svg",
+    "nuxtjs-plain.svg"
+  ],
+  "oauth": [
+    "oauth-original.svg",
+    "oauth-plain.svg"
+  ],
+  "objectivec": [
+    "objectivec-plain.svg"
+  ],
+  "ocaml": [
+    "ocaml-original-wordmark.svg",
+    "ocaml-original.svg",
+    "ocaml-plain-wordmark.svg",
+    "ocaml-plain.svg"
+  ],
+  "ohmyzsh": [
+    "ohmyzsh-original.svg",
+    "ohmyzsh-plain.svg"
+  ],
+  "okta": [
+    "okta-original-wordmark.svg",
+    "okta-original.svg",
+    "okta-plain-wordmark.svg",
+    "okta-plain.svg"
+  ],
+  "openal": [
+    "openal-original.svg",
+    "openal-plain.svg"
+  ],
+  "openapi": [
+    "openapi-line-wordmark.svg",
+    "openapi-line.svg",
+    "openapi-original-wordmark.svg",
+    "openapi-original.svg",
+    "openapi-plain-wordmark.svg",
+    "openapi-plain.svg"
+  ],
+  "opencl": [
+    "opencl-line.svg",
+    "opencl-original.svg",
+    "opencl-plain.svg"
+  ],
+  "opencv": [
+    "opencv-original-wordmark.svg",
+    "opencv-original.svg",
+    "opencv-plain-wordmark.svg",
+    "opencv-plain.svg"
+  ],
+  "opengl": [
+    "opengl-original.svg",
+    "opengl-plain.svg"
+  ],
+  "openstack": [
+    "openstack-original-wordmark.svg",
+    "openstack-original.svg",
+    "openstack-plain-wordmark.svg"
+  ],
+  "opensuse": [
+    "opensuse-original-wordmark.svg",
+    "opensuse-original.svg"
+  ],
+  "opentelemetry": [
+    "opentelemetry-original-wordmark.svg",
+    "opentelemetry-original.svg",
+    "opentelemetry-plain-wordmark.svg",
+    "opentelemetry-plain.svg"
+  ],
+  "opera": [
+    "opera-original-wordmark.svg",
+    "opera-original.svg",
+    "opera-plain-wordmark.svg",
+    "opera-plain.svg"
+  ],
+  "oracle": [
+    "oracle-original.svg"
+  ],
+  "ory": [
+    "ory-original-wordmark.svg",
+    "ory-original.svg"
+  ],
+  "p5js": [
+    "p5js-original.svg"
+  ],
+  "packer": [
+    "packer-line-wordmark.svg",
+    "packer-line.svg",
+    "packer-original-wordmark.svg",
+    "packer-original.svg",
+    "packer-plain-wordmark.svg",
+    "packer-plain.svg"
+  ],
+  "pandas": [
+    "pandas-line-wordmark.svg",
+    "pandas-line.svg",
+    "pandas-original-wordmark.svg",
+    "pandas-original.svg",
+    "pandas-plain-wordmark.svg",
+    "pandas-plain.svg"
+  ],
+  "perl": [
+    "perl-original.svg",
+    "perl-plain.svg"
+  ],
+  "pfsense": [
+    "pfsense-original-wordmark.svg",
+    "pfsense-original.svg"
+  ],
+  "phalcon": [
+    "phalcon-original.svg",
+    "phalcon-plain.svg"
+  ],
+  "phoenix": [
+    "phoenix-original-wordmark.svg",
+    "phoenix-original.svg",
+    "phoenix-plain-wordmark.svg"
+  ],
+  "photonengine": [
+    "photonengine-original.svg",
+    "photonengine-plain.svg"
+  ],
+  "photoshop": [
+    "photoshop-line.svg",
+    "photoshop-original.svg",
+    "photoshop-plain.svg"
+  ],
+  "php": [
+    "php-original.svg",
+    "php-plain.svg"
+  ],
+  "phpstorm": [
+    "phpstorm-original.svg",
+    "phpstorm-plain-wordmark.svg",
+    "phpstorm-plain.svg"
+  ],
+  "playwright": [
+    "playwright-original.svg",
+    "playwright-plain.svg"
+  ],
+  "plotly": [
+    "plotly-original-wordmark.svg",
+    "plotly-original.svg",
+    "plotly-plain-wordmark.svg",
+    "plotly-plain.svg"
+  ],
+  "pnpm": [
+    "pnpm-original-wordmark.svg",
+    "pnpm-original.svg",
+    "pnpm-plain-wordmark.svg",
+    "pnpm-plain.svg"
+  ],
+  "podman": [
+    "podman-original-wordmark.svg",
+    "podman-original.svg",
+    "podman-plain-wordmark.svg",
+    "podman-plain.svg"
+  ],
+  "poetry": [
+    "poetry-original.svg",
+    "poetry-plain.svg"
+  ],
+  "polygon": [
+    "polygon-original-wordmark.svg",
+    "polygon-original.svg",
+    "polygon-plain-wordmark.svg",
+    "polygon-plain.svg"
+  ],
+  "portainer": [
+    "portainer-original-wordmark.svg",
+    "portainer-original.svg"
+  ],
+  "postcss": [
+    "postcss-original-wordmark.svg",
+    "postcss-original.svg",
+    "postcss-plain-wordmark.svg"
+  ],
+  "postgresql": [
+    "postgresql-original-wordmark.svg",
+    "postgresql-original.svg",
+    "postgresql-plain-wordmark.svg",
+    "postgresql-plain.svg"
+  ],
+  "postman": [
+    "postman-original-wordmark.svg",
+    "postman-original.svg",
+    "postman-plain-wordmark.svg",
+    "postman-plain.svg"
+  ],
+  "powershell": [
+    "powershell-original.svg",
+    "powershell-plain.svg"
+  ],
+  "premierepro": [
+    "premierepro-original.svg",
+    "premierepro-plain.svg"
+  ],
+  "prisma": [
+    "prisma-original-wordmark.svg",
+    "prisma-original.svg"
+  ],
+  "processing": [
+    "processing-original-wordmark.svg",
+    "processing-original.svg",
+    "processing-plain-wordmark.svg",
+    "processing-plain.svg"
+  ],
+  "prolog": [
+    "prolog-original-wordmark.svg",
+    "prolog-original.svg",
+    "prolog-plain-wordmark.svg",
+    "prolog-plain.svg"
+  ],
+  "prometheus": [
+    "prometheus-line-wordmark.svg",
+    "prometheus-line.svg",
+    "prometheus-original-wordmark.svg",
+    "prometheus-original.svg",
+    "prometheus-plain-wordmark.svg"
+  ],
+  "protractor": [
+    "protractor-line-wordmark.svg",
+    "protractor-line.svg",
+    "protractor-original-wordmark.svg",
+    "protractor-original.svg",
+    "protractor-plain-wordmark.svg",
+    "protractor-plain.svg"
+  ],
+  "pulsar": [
+    "pulsar-original-wordmark.svg",
+    "pulsar-original.svg"
+  ],
+  "pulumi": [
+    "pulumi-original-wordmark.svg",
+    "pulumi-original.svg",
+    "pulumi-plain-wordmark.svg",
+    "pulumi-plain.svg"
+  ],
+  "puppeteer": [
+    "puppeteer-original.svg",
+    "puppeteer-plain.svg"
+  ],
+  "purescript": [
+    "purescript-original-wordmark.svg",
+    "purescript-original.svg"
+  ],
+  "putty": [
+    "putty-original.svg",
+    "putty-plain.svg"
+  ],
+  "pycharm": [
+    "pycharm-original-wordmark.svg",
+    "pycharm-original.svg",
+    "pycharm-plain-wordmark.svg",
+    "pycharm-plain.svg"
+  ],
+  "pypi": [
+    "pypi-original-wordmark.svg",
+    "pypi-original.svg",
+    "pypi-plain-wordmark.svg",
+    "pypi-plain.svg"
+  ],
+  "pyscript": [
+    "pyscript-original-wordmark.svg",
+    "pyscript-plain-wordmark.svg"
+  ],
+  "pytest": [
+    "pytest-original-wordmark.svg",
+    "pytest-original.svg",
+    "pytest-plain-wordmark.svg",
+    "pytest-plain.svg"
+  ],
+  "python": [
+    "python-original-wordmark.svg",
+    "python-original.svg",
+    "python-plain-wordmark.svg",
+    "python-plain.svg"
+  ],
+  "pytorch": [
+    "pytorch-original-wordmark.svg",
+    "pytorch-original.svg",
+    "pytorch-plain-wordmark.svg"
+  ],
+  "qodana": [
+    "qodana-original.svg",
+    "qodana-plain-wordmark.svg",
+    "qodana-plain.svg"
+  ],
+  "qt": [
+    "qt-original.svg"
+  ],
+  "quarkus": [
+    "quarkus-original-wordmark.svg",
+    "quarkus-original.svg",
+    "quarkus-plain-wordmark.svg",
+    "quarkus-plain.svg"
+  ],
+  "quasar": [
+    "quasar-original-wordmark.svg",
+    "quasar-original.svg",
+    "quasar-plain-wordmark.svg",
+    "quasar-plain.svg"
+  ],
+  "qwik": [
+    "qwik-original-wordmark.svg",
+    "qwik-original.svg",
+    "qwik-plain-wordmark.svg",
+    "qwik-plain.svg"
+  ],
+  "r": [
+    "r-line.svg",
+    "r-original.svg",
+    "r-plain.svg"
+  ],
+  "rabbitmq": [
+    "rabbitmq-original-wordmark.svg",
+    "rabbitmq-original.svg",
+    "rabbitmq-plain-wordmark.svg"
+  ],
+  "rails": [
+    "rails-original-wordmark.svg",
+    "rails-plain-wordmark.svg",
+    "rails-plain.svg"
+  ],
+  "railway": [
+    "railway-line-wordmark.svg",
+    "railway-line.svg",
+    "railway-original-wordmark.svg",
+    "railway-original.svg"
+  ],
+  "rancher": [
+    "rancher-line-wordmark.svg",
+    "rancher-line.svg",
+    "rancher-original-wordmark.svg",
+    "rancher-original.svg",
+    "rancher-plain-wordmark.svg"
+  ],
+  "raspberrypi": [
+    "raspberrypi-line-wordmark.svg",
+    "raspberrypi-line.svg",
+    "raspberrypi-original-wordmark.svg",
+    "raspberrypi-original.svg",
+    "raspberrypi-plain-wordmark.svg",
+    "raspberrypi-plain.svg"
+  ],
+  "reach": [
+    "reach-original.svg",
+    "reach-plain.svg"
+  ],
+  "react": [
+    "react-original-wordmark.svg",
+    "react-original.svg"
+  ],
+  "reactbootstrap": [
+    "reactbootstrap-original.svg"
+  ],
+  "reactnavigation": [
+    "reactnavigation-original.svg"
+  ],
+  "reactrouter": [
+    "reactrouter-original-wordmark.svg",
+    "reactrouter-original.svg",
+    "reactrouter-plain-wordmark.svg",
+    "reactrouter-plain.svg"
+  ],
+  "readthedocs": [
+    "readthedocs-line.svg",
+    "readthedocs-original-wordmark.svg",
+    "readthedocs-original.svg"
+  ],
+  "realm": [
+    "realm-original-wordmark.svg",
+    "realm-original.svg",
+    "realm-plain-wordmark.svg",
+    "realm-plain.svg"
+  ],
+  "rect": [
+    "rect-original.svg",
+    "rect-plain.svg"
+  ],
+  "redhat": [
+    "redhat-original-wordmark.svg",
+    "redhat-original.svg",
+    "redhat-plain-wordmark.svg",
+    "redhat-plain.svg"
+  ],
+  "redis": [
+    "redis-original-wordmark.svg",
+    "redis-original.svg",
+    "redis-plain-wordmark.svg",
+    "redis-plain.svg"
+  ],
+  "redux": [
+    "redux-original.svg"
+  ],
+  "renpy": [
+    "renpy-original.svg",
+    "renpy-plain.svg"
+  ],
+  "replit": [
+    "replit-original-wordmark.svg",
+    "replit-original.svg",
+    "replit-plain-wordmark.svg"
+  ],
+  "rider": [
+    "rider-original-wordmark.svg",
+    "rider-original.svg",
+    "rider-plain-wordmark.svg",
+    "rider-plain.svg"
+  ],
+  "rocksdb": [
+    "rocksdb-line.svg",
+    "rocksdb-original.svg",
+    "rocksdb-plain.svg"
+  ],
+  "rockylinux": [
+    "rockylinux-original-wordmark.svg",
+    "rockylinux-original.svg",
+    "rockylinux-plain-wordmark.svg"
+  ],
+  "rollup": [
+    "rollup-line-wordmark.svg",
+    "rollup-line.svg",
+    "rollup-original-wordmark.svg",
+    "rollup-original.svg",
+    "rollup-plain-wordmark.svg",
+    "rollup-plain.svg"
+  ],
+  "ros": [
+    "ros-original-wordmark.svg",
+    "ros-original.svg"
+  ],
+  "rspec": [
+    "rspec-line-wordmark.svg",
+    "rspec-line.svg",
+    "rspec-original-wordmark.svg",
+    "rspec-original.svg",
+    "rspec-plain-wordmark.svg",
+    "rspec-plain.svg"
+  ],
+  "rstudio": [
+    "rstudio-original.svg",
+    "rstudio-plain.svg"
+  ],
+  "ruby": [
+    "ruby-original-wordmark.svg",
+    "ruby-original.svg",
+    "ruby-plain-wordmark.svg",
+    "ruby-plain.svg"
+  ],
+  "rubymine": [
+    "rubymine-original-wordmark.svg",
+    "rubymine-original.svg",
+    "rubymine-plain-wordmark.svg",
+    "rubymine-plain.svg"
+  ],
+  "rust": [
+    "rust-line.svg",
+    "rust-original.svg"
+  ],
+  "rxjs": [
+    "rxjs-original.svg",
+    "rxjs-plain.svg"
+  ],
+  "safari": [
+    "safari-line-wordmark.svg",
+    "safari-line.svg",
+    "safari-original-wordmark.svg",
+    "safari-original.svg",
+    "safari-plain-wordmark.svg",
+    "safari-plain.svg"
+  ],
+  "salesforce": [
+    "salesforce-original.svg",
+    "salesforce-plain.svg"
+  ],
+  "sanity": [
+    "sanity-original.svg",
+    "sanity-plain.svg"
+  ],
+  "sass": [
+    "sass-original.svg"
+  ],
+  "scala": [
+    "scala-original-wordmark.svg",
+    "scala-original.svg",
+    "scala-plain-wordmark.svg",
+    "scala-plain.svg"
+  ],
+  "scalingo": [
+    "scalingo-line-wordmark.svg",
+    "scalingo-line.svg",
+    "scalingo-original-wordmark.svg",
+    "scalingo-original.svg",
+    "scalingo-plain-wordmark.svg",
+    "scalingo-plain.svg"
+  ],
+  "scikitlearn": [
+    "scikitlearn-line.svg",
+    "scikitlearn-original.svg",
+    "scikitlearn-plain.svg"
+  ],
+  "sdl": [
+    "sdl-original.svg",
+    "sdl-plain.svg"
+  ],
+  "selenium": [
+    "selenium-original.svg"
+  ],
+  "sema": [
+    "sema-original-wordmark.svg",
+    "sema-original.svg"
+  ],
+  "sentry": [
+    "sentry-original-wordmark.svg",
+    "sentry-original.svg"
+  ],
+  "sequelize": [
+    "sequelize-original-wordmark.svg",
+    "sequelize-original.svg",
+    "sequelize-plain-wordmark.svg",
+    "sequelize-plain.svg"
+  ],
+  "shopware": [
+    "shopware-original-wordmark.svg",
+    "shopware-original.svg"
+  ],
+  "shotgrid": [
+    "shotgrid-original-wordmark.svg",
+    "shotgrid-original.svg",
+    "shotgrid-plain.svg"
+  ],
+  "sketch": [
+    "sketch-line-wordmark.svg",
+    "sketch-line.svg",
+    "sketch-original-wordmark.svg",
+    "sketch-original.svg",
+    "sketch-plain-wordmark.svg",
+    "sketch-plain.svg"
+  ],
+  "slack": [
+    "slack-original-wordmark.svg",
+    "slack-original.svg",
+    "slack-plain-wordmark.svg",
+    "slack-plain.svg"
+  ],
+  "socketio": [
+    "socketio-original-wordmark.svg",
+    "socketio-original.svg"
+  ],
+  "solidity": [
+    "solidity-original.svg",
+    "solidity-plain.svg"
+  ],
+  "solidjs": [
+    "solidjs-original-wordmark.svg",
+    "solidjs-original.svg",
+    "solidjs-plain-wordmark.svg",
+    "solidjs-plain.svg"
+  ],
+  "sonarqube": [
+    "sonarqube-line-wordmark.svg",
+    "sonarqube-line.svg",
+    "sonarqube-original-wordmark.svg",
+    "sonarqube-original.svg",
+    "sonarqube-plain-wordmark.svg"
+  ],
+  "sourcetree": [
+    "sourcetree-original-wordmark.svg",
+    "sourcetree-original.svg"
+  ],
+  "spack": [
+    "spack-original.svg",
+    "spack-plain.svg"
+  ],
+  "splunk": [
+    "splunk-original-wordmark.svg"
+  ],
+  "spring": [
+    "spring-original-wordmark.svg",
+    "spring-original.svg"
+  ],
+  "spss": [
+    "spss-original.svg",
+    "spss-plain.svg"
+  ],
+  "spyder": [
+    "spyder-original-wordmark.svg",
+    "spyder-original.svg",
+    "spyder-plain-wordmark.svg",
+    "spyder-plain.svg"
+  ],
+  "sqlalchemy": [
+    "sqlalchemy-original-wordmark.svg",
+    "sqlalchemy-original.svg",
+    "sqlalchemy-plain-wordmark.svg",
+    "sqlalchemy-plain.svg"
+  ],
+  "sqldeveloper": [
+    "sqldeveloper-original.svg",
+    "sqldeveloper-plain.svg"
+  ],
+  "sqlite": [
+    "sqlite-original-wordmark.svg",
+    "sqlite-original.svg",
+    "sqlite-plain-wordmark.svg",
+    "sqlite-plain.svg"
+  ],
+  "ssh": [
+    "ssh-original-wordmark.svg",
+    "ssh-original.svg"
+  ],
+  "stackoverflow": [
+    "stackoverflow-line-wordmark.svg",
+    "stackoverflow-line.svg",
+    "stackoverflow-original-wordmark.svg",
+    "stackoverflow-original.svg",
+    "stackoverflow-plain-wordmark.svg",
+    "stackoverflow-plain.svg"
+  ],
+  "stata": [
+    "stata-original-wordmark.svg"
+  ],
+  "storybook": [
+    "storybook-original-wordmark.svg",
+    "storybook-original.svg",
+    "storybook-plain-wordmark.svg",
+    "storybook-plain.svg"
+  ],
+  "streamlit": [
+    "streamlit-original-wordmark.svg",
+    "streamlit-original.svg",
+    "streamlit-plain-wordmark.svg",
+    "streamlit-plain.svg"
+  ],
+  "stylus": [
+    "stylus-original.svg"
+  ],
+  "subversion": [
+    "subversion-original-wordmark.svg",
+    "subversion-original.svg",
+    "subversion-plain-wordmark.svg"
+  ],
+  "supabase": [
+    "supabase-original-wordmark.svg",
+    "supabase-original.svg",
+    "supabase-plain-wordmark.svg",
+    "supabase-plain.svg"
+  ],
+  "svelte": [
+    "svelte-original-wordmark.svg",
+    "svelte-original.svg",
+    "svelte-plain-wordmark.svg",
+    "svelte-plain.svg"
+  ],
+  "swagger": [
+    "swagger-original-wordmark.svg",
+    "swagger-original.svg",
+    "swagger-plain-wordmark.svg",
+    "swagger-plain.svg"
+  ],
+  "swift": [
+    "swift-original-wordmark.svg",
+    "swift-original.svg",
+    "swift-plain-wordmark.svg",
+    "swift-plain.svg"
+  ],
+  "swiper": [
+    "swiper-original.svg"
+  ],
+  "symfony": [
+    "symfony-original-wordmark.svg",
+    "symfony-original.svg"
+  ],
+  "tailwindcss": [
+    "tailwindcss-original-wordmark.svg",
+    "tailwindcss-original.svg",
+    "tailwindcss-plain-wordmark.svg"
+  ],
+  "tauri": [
+    "tauri-original-wordmark.svg",
+    "tauri-original.svg",
+    "tauri-plain-wordmark.svg",
+    "tauri-plain.svg"
+  ],
+  "tensorflow": [
+    "tensorflow-line-wordmark.svg",
+    "tensorflow-line.svg",
+    "tensorflow-original-wordmark.svg",
+    "tensorflow-original.svg"
+  ],
+  "terraform": [
+    "terraform-original-wordmark.svg",
+    "terraform-original.svg",
+    "terraform-plain-wordmark.svg",
+    "terraform-plain.svg"
+  ],
+  "tex": [
+    "tex-original.svg"
+  ],
+  "thealgorithms": [
+    "thealgorithms-original-wordmark.svg",
+    "thealgorithms-original.svg",
+    "thealgorithms-plain-wordmark.svg",
+    "thealgorithms-plain.svg"
+  ],
+  "threedsmax": [
+    "threedsmax-original.svg",
+    "threedsmax-plain.svg"
+  ],
+  "threejs": [
+    "threejs-original-wordmark.svg",
+    "threejs-original.svg"
+  ],
+  "titaniumsdk": [
+    "titaniumsdk-original.svg"
+  ],
+  "tomcat": [
+    "tomcat-line-wordmark.svg",
+    "tomcat-line.svg",
+    "tomcat-original-wordmark.svg",
+    "tomcat-original.svg"
+  ],
+  "tortoisegit": [
+    "tortoisegit-line.svg",
+    "tortoisegit-original.svg",
+    "tortoisegit-plain.svg"
+  ],
+  "towergit": [
+    "towergit-original-wordmark.svg",
+    "towergit-original.svg",
+    "towergit-plain-wordmark.svg",
+    "towergit-plain.svg"
+  ],
+  "traefikmesh": [
+    "traefikmesh-line-wordmark.svg",
+    "traefikmesh-line.svg",
+    "traefikmesh-original-wordmark.svg",
+    "traefikmesh-original.svg",
+    "traefikmesh-plain-wordmark.svg"
+  ],
+  "traefikproxy": [
+    "traefikproxy-line-wordmark.svg",
+    "traefikproxy-line.svg",
+    "traefikproxy-original-wordmark.svg",
+    "traefikproxy-original.svg",
+    "traefikproxy-plain-wordmark.svg"
+  ],
+  "travis": [
+    "travis-line-wordmark.svg",
+    "travis-line.svg",
+    "travis-original-wordmark.svg",
+    "travis-original.svg",
+    "travis-plain-wordmark.svg",
+    "travis-plain.svg"
+  ],
+  "trello": [
+    "trello-line-wordmark.svg",
+    "trello-line.svg",
+    "trello-original-wordmark.svg",
+    "trello-original.svg",
+    "trello-plain-wordmark.svg",
+    "trello-plain.svg"
+  ],
+  "trpc": [
+    "trpc-original-wordmark.svg",
+    "trpc-original.svg",
+    "trpc-plain-wordmark.svg",
+    "trpc-plain.svg"
+  ],
+  "twitter": [
+    "twitter-original.svg"
+  ],
+  "typescript": [
+    "typescript-original.svg",
+    "typescript-plain.svg"
+  ],
+  "typo3": [
+    "typo3-line-wordmark.svg",
+    "typo3-line.svg",
+    "typo3-original-wordmark.svg",
+    "typo3-original.svg",
+    "typo3-plain-wordmark.svg"
+  ],
+  "ubuntu": [
+    "ubuntu-original-wordmark.svg",
+    "ubuntu-original.svg",
+    "ubuntu-plain-wordmark.svg",
+    "ubuntu-plain.svg"
+  ],
+  "unifiedmodelinglanguage": [
+    "unifiedmodelinglanguage-original-wordmark.svg",
+    "unifiedmodelinglanguage-original.svg",
+    "unifiedmodelinglanguage-plain-wordmark.svg",
+    "unifiedmodelinglanguage-plain.svg"
+  ],
+  "unity": [
+    "unity-line-wordmark.svg",
+    "unity-line.svg",
+    "unity-original-wordmark.svg",
+    "unity-original.svg",
+    "unity-plain-wordmark.svg",
+    "unity-plain.svg"
+  ],
+  "unix": [
+    "unix-original.svg"
+  ],
+  "unrealengine": [
+    "unrealengine-original-wordmark.svg",
+    "unrealengine-original.svg"
+  ],
+  "uwsgi": [
+    "uwsgi-original.svg",
+    "uwsgi-plain.svg"
+  ],
+  "v8": [
+    "v8-original.svg",
+    "v8-plain.svg"
+  ],
+  "vagrant": [
+    "vagrant-original-wordmark.svg",
+    "vagrant-original.svg",
+    "vagrant-plain-wordmark.svg",
+    "vagrant-plain.svg"
+  ],
+  "vala": [
+    "vala-original-wordmark.svg",
+    "vala-original.svg",
+    "vala-plain-wordmark.svg",
+    "vala-plain.svg"
+  ],
+  "vault": [
+    "vault-original-wordmark.svg",
+    "vault-original.svg",
+    "vault-plain-wordmark.svg"
+  ],
+  "vercel": [
+    "vercel-line-wordmark.svg",
+    "vercel-line.svg",
+    "vercel-original-wordmark.svg",
+    "vercel-original.svg"
+  ],
+  "vertx": [
+    "vertx-line-wordmark.svg",
+    "vertx-line.svg",
+    "vertx-original-wordmark.svg",
+    "vertx-original.svg",
+    "vertx-plain-wordmark.svg",
+    "vertx-plain.svg"
+  ],
+  "vim": [
+    "vim-original.svg",
+    "vim-plain.svg"
+  ],
+  "visualbasic": [
+    "visualbasic-line.svg",
+    "visualbasic-original.svg",
+    "visualbasic-plain.svg"
+  ],
+  "visualstudio": [
+    "visualstudio-line-wordmark.svg",
+    "visualstudio-line.svg",
+    "visualstudio-original-wordmark.svg",
+    "visualstudio-original.svg",
+    "visualstudio-plain-wordmark.svg",
+    "visualstudio-plain.svg"
+  ],
+  "vite": [
+    "vite-original-wordmark.svg",
+    "vite-original.svg"
+  ],
+  "vitejs": [
+    "vitejs-original.svg",
+    "vitejs-plain.svg"
+  ],
+  "vitess": [
+    "vitess-original-wordmark.svg",
+    "vitess-original.svg",
+    "vitess-plain-wordmark.svg",
+    "vitess-plain.svg"
+  ],
+  "vitest": [
+    "vitest-original.svg",
+    "vitest-plain.svg"
+  ],
+  "vscode": [
+    "vscode-original-wordmark.svg",
+    "vscode-original.svg",
+    "vscode-plain-wordmark.svg",
+    "vscode-plain.svg"
+  ],
+  "vsphere": [
+    "vsphere-line-wordmark.svg",
+    "vsphere-line.svg",
+    "vsphere-original-wordmark.svg",
+    "vsphere-original.svg",
+    "vsphere-plain-wordmark.svg",
+    "vsphere-plain.svg"
+  ],
+  "vuejs": [
+    "vuejs-line-wordmark.svg",
+    "vuejs-line.svg",
+    "vuejs-original-wordmark.svg",
+    "vuejs-original.svg",
+    "vuejs-plain-wordmark.svg",
+    "vuejs-plain.svg"
+  ],
+  "vuestorefront": [
+    "vuestorefront-original.svg",
+    "vuestorefront-plain.svg"
+  ],
+  "vuetify": [
+    "vuetify-line.svg",
+    "vuetify-original.svg",
+    "vuetify-plain.svg"
+  ],
+  "vyper": [
+    "vyper-original-wordmark.svg",
+    "vyper-original.svg",
+    "vyper-plain-wordmark.svg",
+    "vyper-plain.svg"
+  ],
+  "wasm": [
+    "wasm-original-wordmark.svg",
+    "wasm-original.svg",
+    "wasm-plain-wordmark.svg"
+  ],
+  "webflow": [
+    "webflow-original.svg"
+  ],
+  "weblate": [
+    "weblate-original-wordmark.svg",
+    "weblate-original.svg",
+    "weblate-plain-wordmark.svg",
+    "weblate-plain.svg"
+  ],
+  "webpack": [
+    "webpack-original-wordmark.svg",
+    "webpack-original.svg",
+    "webpack-plain-wordmark.svg",
+    "webpack-plain.svg"
+  ],
+  "webstorm": [
+    "webstorm-original-wordmark.svg",
+    "webstorm-original.svg",
+    "webstorm-plain-wordmark.svg",
+    "webstorm-plain.svg"
+  ],
+  "windows11": [
+    "windows11-original-wordmark.svg",
+    "windows11-original.svg"
+  ],
+  "windows8": [
+    "windows8-original-wordmark.svg",
+    "windows8-original.svg"
+  ],
+  "woocommerce": [
+    "woocommerce-original-wordmark.svg",
+    "woocommerce-original.svg",
+    "woocommerce-plain-wordmark.svg",
+    "woocommerce-plain.svg"
+  ],
+  "wordpress": [
+    "wordpress-original.svg",
+    "wordpress-plain-wordmark.svg",
+    "wordpress-plain.svg"
+  ],
+  "xamarin": [
+    "xamarin-original-wordmark.svg",
+    "xamarin-original.svg"
+  ],
+  "xcode": [
+    "xcode-original.svg",
+    "xcode-plain.svg"
+  ],
+  "xd": [
+    "xd-line.svg",
+    "xd-original.svg",
+    "xd-plain.svg"
+  ],
+  "xml": [
+    "xml-line.svg",
+    "xml-original.svg",
+    "xml-plain.svg"
+  ],
+  "yaml": [
+    "yaml-original.svg",
+    "yaml-plain.svg"
+  ],
+  "yarn": [
+    "yarn-line-wordmark.svg",
+    "yarn-line.svg",
+    "yarn-original-wordmark.svg",
+    "yarn-original.svg"
+  ],
+  "yii": [
+    "yii-original-wordmark.svg",
+    "yii-original.svg",
+    "yii-plain-wordmark.svg",
+    "yii-plain.svg"
+  ],
+  "yugabytedb": [
+    "yugabytedb-original-wordmark.svg",
+    "yugabytedb-original.svg",
+    "yugabytedb-plain-wordmark.svg",
+    "yugabytedb-plain.svg"
+  ],
+  "yunohost": [
+    "yunohost-original.svg",
+    "yunohost-plain.svg"
+  ],
+  "zend": [
+    "zend-line-wordmark.svg",
+    "zend-line.svg",
+    "zend-original-wordmark.svg",
+    "zend-original.svg"
+  ],
+  "zig": [
+    "zig-original-wordmark.svg",
+    "zig-original.svg",
+    "zig-plain-wordmark.svg"
+  ]
+}
