@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 // Pfade definieren
-const dataDir = path.join(__dirname, "data");
+const dataDir = path.join(__dirname, "public/data");
 const logoDir = path.join(dataDir, "logos");
 const imageDir = path.join(dataDir, "images");
 const logoManifestPath = path.join(dataDir, "logo_manifest.json");

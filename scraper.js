@@ -5,10 +5,10 @@ const cheerio = require("cheerio");
 const { glob } = require("glob");
 
 // --- KONFIGURATION ---
-const GITHUB_REPO_PATH = "./data/ext_ressources/hello-world-main";
-const EXISTING_LANG_PATH = "./data/languages.json";
+const GITHUB_REPO_PATH = "./public/data/ext_ressources/hello-world-main";
+const EXISTING_LANG_PATH = "./public/data/languages.json";
 const HWC_URL = "http://helloworldcollection.de/";
-const OUTPUT_PATH = "./data/languages.json";
+const OUTPUT_PATH = "./public/data/languages.json";
 
 // --- HAUPTLOGIK ---
 

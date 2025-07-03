@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Language Editor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Wir nutzen die gleichen Theme-Variablen -->
+  </head>
+  <body
+    class="min-h-screen p-4 md:p-8"
+    style="background-color: var(--bg-primary)"
+  >
+    <div class="max-w-7xl mx-auto md:grid md:grid-cols-3 md:gap-8">
+      <!-- LINKE SPALTE: INDEX & SUCHE -->
+      <aside class="md:col-span-1 mb-8 md:mb-0">
+        <h1 class="text-3xl font-bold mb-4" style="color: var(--text-accent)">
+          Language Editor
+        </h1>
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search languages..."
+          class="w-full p-2 rounded mb-4"
+          style="
+            background-color: var(--bg-secondary);
+            color: var(--text-primary);
+          "
+        />
+        <div
+          id="language-list"
+          class="h-96 overflow-y-auto rounded"
+          style="background-color: var(--bg-secondary)"
+        >
+          <!-- Sprachen werden hier von JS eingefügt -->
+        </div>
+      </aside>
+
+      <!-- RECHTE SPALTE: FORMULAR -->
+      <main class="md:col-span-2">
+        <form id="editor-form" class="hidden">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <label for="form-name" class="block font-bold">Name</label
+              ><input type="text" id="form-name" class="form-input" />
+            </div>
+            <div>
+              <label for="form-id" class="block font-bold"
+                >ID (unique, no spaces)</label
+              ><input type="text" id="form-id" class="form-input" />
+            </div>
+            <div>
+              <label for="form-fileExtension" class="block font-bold"
+                >File Extension</label
+              ><input type="text" id="form-fileExtension" class="form-input" />
+            </div>
+            <div>
+              <label for="form-highlightLang" class="block font-bold"
+                >Highlight.js Lang</label
+              ><input type="text" id="form-highlightLang" class="form-input" />
+            </div>
+          </div>
+
+          <div class="mt-6">
+            <label for="form-code" class="block font-bold">Code</label
+            ><textarea
+              id="form-code"
+              rows="10"
+              class="form-input font-mono"
+            ></textarea>
+          </div>
+
+          <div
+            class="mt-6 p-4 rounded"
+            style="background-color: var(--bg-secondary)"
+          >
+            <h3 class="font-bold text-lg mb-2">Output</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label for="form-output-type" class="block">Type</label
+                ><input type="text" id="form-output-type" class="form-input" />
+              </div>
+              <div>
+                <label for="form-output-text" class="block">Text</label
+                ><input type="text" id="form-output-text" class="form-input" />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mt-6 p-4 rounded"
+            style="background-color: var(--bg-secondary)"
+          >
+            <h3 class="font-bold text-lg mb-2">Comments</h3>
+            <div>
+              <label for="form-comment-single" class="block">Single-Line</label
+              ><textarea
+                id="form-comment-single"
+                rows="2"
+                class="form-input font-mono"
+              ></textarea>
+            </div>
+            <div class="mt-4">
+              <label for="form-comment-multi" class="block">Multi-Line</label
+              ><textarea
+                id="form-comment-multi"
+                rows="4"
+                class="form-input font-mono"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="mt-8 flex justify-between items-center">
+            <div>
+              <button type="button" id="save-button" class="btn-success">
+                Save Changes
+              </button>
+              <button
+                type="button"
+                id="add-new-button"
+                class="btn-primary ml-2"
+              >
+                Add New
+              </button>
+            </div>
+            <button type="button" id="delete-button" class="btn-danger">
+              Delete Entry
+            </button>
+          </div>
+        </form>
+        <div
+          id="welcome-message"
+          class="text-center p-16 rounded"
+          style="background-color: var(--bg-secondary)"
+        >
+          <p class="text-xl">
+            Select a language from the list to begin editing.
+          </p>
+        </div>
+      </main>
+    </div>
+
+    <!-- Eigener JS-Code für diese Seite -->
+    <script src="js/edit.js" defer></script>
+    <style>
+      .form-input {
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 0.25rem;
+        background-color: var(--bg-primary);
+        color: var(--text-primary);
+        border: 1px solid var(--border-color);
+      }
+      .btn-success {
+        background-color: #10b981;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 0.25rem;
+        font-weight: bold;
+      }
+      .btn-danger {
+        background-color: #ef4444;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 0.25rem;
+        font-weight: bold;
+      }
+      .btn-primary {
+        background-color: var(--button-bg);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 0.25rem;
+        font-weight: bold;
+      }
+      #language-list div {
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        border-bottom: 1px solid var(--border-color);
+      }
+      #language-list div:hover {
+        background-color: var(--bg-primary);
+      }
+      #language-list div.selected {
+        background-color: var(--button-bg);
+        font-weight: bold;
+      }
+    </style>
+  </body>
+</html>

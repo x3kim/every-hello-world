@@ -39,4 +39,4 @@ out/
 coverage/
 
 # not needed in production
-data/ext_ressources/
+public/data/ext_ressources/
