@@ -37,3 +37,6 @@ out/
 
 # Test & Coverage reports
 coverage/
+
+# not needed in production
+data/ext_ressources/
