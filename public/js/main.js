@@ -10,7 +10,7 @@ const LOGO_VARIANTS = [
   "plain-wordmark",
   "line-wordmark",
 ];
-const FALLBACK_LOGO = "images/generic-logo.svg";
+const FALLBACK_LOGO = "data/logos/missing.svg";
 const VISIBLE_SLOTS = 42,
   ANGLE_PER_SLOT = 360 / VISIBLE_SLOTS,
   TARGET_SLOT_INDEX = Math.floor(VISIBLE_SLOTS / 2);

@@ -195,7 +195,7 @@ function deleteData() {
 
 function prepareNewEntry() {
   editorForm.reset();
-  formLogoPreview.src = "images/generic-logo.svg"; // Zeige generisches Logo
+  formLogoPreview.src = "logos/missing.svg"; // Zeige generisches Logo
   currentLanguageId = null;
   formFields.id.readOnly = false;
   welcomeMessage.classList.add("hidden");
@@ -206,9 +206,9 @@ function prepareNewEntry() {
 }
 
 // LOGO-FUNKTIONEN
-const LOGO_BASE_PATH = "logos/";
+const LOGO_BASE_PATH = "data/logos/";
 const LOGO_VARIANTS = ["original", "plain", "line", "wordmark"];
-const FALLBACK_LOGO = "images/generic-logo.svg";
+const FALLBACK_LOGO = "data/logos/missing.svg";
 
 function setLogoWithFallback(imgElement, lang, variantIndex = 0) {
   if (!lang || !lang.id) {
