@@ -44,4 +44,9 @@ Typos, bug fixes, and new ideas are also welcome! Open an issue or send a PR.
 
 ## Credits & Thanks
 
-This project wouldn't be as colorful without the fantastic icons from the [Devicon](https://github.com/devicons/devicon) repository. They are awesome and licensed under the [MIT License](LICENSE\DEVILON_LICENSE.md).
+- Icons provided by [Devicon](https://github.com/devicons/devicon) repository, licensed under the [MIT License](LICENSE\DEVILON_LICENSE.md)
+- Hello World examples inspired by and sourced from:
+  - [The Hello World Collection](http://helloworldcollection.de/)
+  - [leachim6/hello-world](https://github.com/leachim6/hello-world)
+
+Thank you to these projects for maintaining comprehensive collections of Hello World examples across different programming languages.
